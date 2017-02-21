@@ -1,0 +1,369 @@
+<html>
+  <head>
+<base href="http://webclu.bio.wzw.tum.de/binfo/edu/tutorials/stringmatch/" />
+<title>Exakte Suche von Text in Texten (exact string matching)</title></head>
+  <body bgcolor="#FFFFFF">
+
+<h1>Exakte Suche von Text in Texten (exact string matching)</h1>
+
+<h2>Problemstellung</h2>
+
+<P>Die Suche von Suchbegriffen (Mustern, patterns) in Texten erscheint im ersten Moment als triviales Problem.
+Man stelle sich folgende Herangehensweise vor:</P>
+<OL>
+	<LI><P>Positioniere das Muster am Beginn
+	des Textes</P>
+	<LI><P>Laufe durch alle Positionen des
+	Musters und vergleiche, ob das jeweilige Zeichen des Musters mit dem
+	des Textes &uuml;bereinstimmt.</P>
+	<UL>
+		<LI><P>Wenn f&uuml;r alle Zeichen des
+		Musters &Uuml;bereinstimmung: Treffer!</P>
+		<LI><P>Wenn unvollst&auml;ndige oder
+		keine &Uuml;bereinstimmung: kein Treffer!</P>
+	</UL>
+	<LI><P>R&uuml;cke das Muster eine
+	Position weiter und gehe zu 2.</P>
+</OL>
+
+
+<table bgcolor="#ebebeb" cellpadding=10 cellspacing=10><tr><td>
+<P>Beispiel: Suche nach allen Vorkommen des Startcodons ATG in einer DNA-Sequenz</P>
+
+<P>Text: <TT>AGCAGCATGACGTACCGATTGAATATAGAGCGATGAGGA</TT><br>
+Muster: <TT>ATG</TT></P>
+
+<p>1. Schritt: Anordnung des Musters am Beginn des Textes<br>
+<TT><FONT COLOR="#0000ff">AGC</FONT>AGCATGACGTACCGATTGAATATAGAGCGATGAGGA</TT><br>
+<TT><FONT COLOR="#0000ff">ATG</FONT></TT></p>
+
+<P>2. Schritt: Durchlaufen aller Positionen des Musters und Vergleich mit dem Text<br>
+<TT><FONT COLOR="#00ff00">A</FONT><FONT COLOR="#0000ff">GC</FONT>AGCATGACGTACCGATTGAATATAGAGCGATGAGGA</TT><br>
+<TT><FONT COLOR="#00ff00">A</FONT><FONT COLOR="#0000ff">TG</FONT></TT><br>
+<TT><FONT COLOR="#0000ff">A</FONT><FONT COLOR="#ff0000">G</FONT><FONT COLOR="#0000ff">C</FONT>AGCATGACGTACCGATTGAATATAGAGCGATGAGGA</TT><br>
+<TT><FONT COLOR="#0000ff">A</FONT><FONT COLOR="#ff0000">T</FONT><FONT COLOR="#0000ff">G</FONT></TT><br>
+<TT><FONT COLOR="#0000ff">AG</FONT><FONT COLOR="#ff0000">C</FONT>AGCATGACGTACCGATTGAATATAGAGCGATGAGGA</TT><br>
+<TT><FONT COLOR="#0000ff">AT</FONT><FONT COLOR="#ff0000">G</FONT></TT><br>
+Resultat: 1 &Uuml;bereinstimmung und 2 Unterschiede -&gt; Kein Treffer!</P>
+
+<P>3. Schritt: Eine Position weiterr&uuml;cken und zur&uuml;ck zu 2.<br>
+<TT>A<FONT COLOR="#0000ff">GCA</FONT>GCATGACGTACCGATTGAATATAGAGCGATGAGGA</TT><br>
+<TT>&nbsp;<FONT COLOR="#0000ff">ATG</FONT></TT></p>
+
+<P>...<br>
+viele Schritte sp&auml;ter:<br>
+<TT>AGCAGC<FONT COLOR="#00ff00">A</FONT><FONT COLOR="#0000ff">TG</FONT>ACGTACCGATTGAATATAGAGCGATGAGGA</TT><br>
+<TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<FONT COLOR="#00ff00">A</FONT><FONT COLOR="#0000ff">TG</FONT></TT><br>
+<TT>AGCAGC<FONT COLOR="#0000ff">A</FONT><FONT COLOR="#00ff00">T</FONT><FONT COLOR="#0000ff">G</FONT>ACGTACCGATTGAATATAGAGCGATGAGGA</TT><br>
+<TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<FONT COLOR="#0000ff">A</FONT><FONT COLOR="#00ff00">T</FONT><FONT COLOR="#0000ff">G</FONT></TT><br>
+<TT>AGCAGC<FONT COLOR="#0000ff">AT</FONT><FONT COLOR="#00ff00">G</FONT>ACGTACCGATTGAATATAGAGCGATGAGGA</TT><br>
+<TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<FONT COLOR="#0000ff">AT</FONT><FONT COLOR="#00ff00">G</FONT></TT><br>
+3 &Uuml;bereinstimmungen -&gt; Treffer!</P>
+
+<P>...<br>
+viele Schritte sp&auml;ter:<br>
+<TT>AGCAGCATGACGTACCGATTGAATATAGAGCG<FONT COLOR="#00ff00">A</FONT><FONT COLOR="#0000ff">TG</FONT>AGGA</TT><br>
+<TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<FONT COLOR="#00ff00">A</FONT><FONT COLOR="#0000ff">TG</FONT></TT><br>
+<TT>AGCAGCATGACGTACCGATTGAATATAGAGCG<FONT COLOR="#0000ff">A</FONT><FONT COLOR="#00ff00">T</FONT><FONT COLOR="#0000ff">G</FONT>AGGA</TT><br>
+<TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<FONT COLOR="#0000ff">A</FONT><FONT COLOR="#00ff00">T</FONT><FONT COLOR="#0000ff">G</FONT></TT><br>
+<TT>AGCAGCATGACGTACCGATTGAATATAGAGCG<FONT COLOR="#0000ff">AT</FONT><FONT COLOR="#00ff00">G</FONT>AGGA</TT><br>
+<TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<FONT COLOR="#0000ff">AT</FONT><FONT COLOR="#00ff00">G</FONT></TT><br>
+3 &Uuml;bereinstimmungen -&gt; Treffer!</P>
+
+<P>...<br>
+viele Schritte sp&auml;ter:<br>
+<TT>AGCAGCATGACGTACCGATTGAATATAGAGCGATGA<FONT COLOR="#0000ff">GG</FONT><FONT COLOR="#ff0000">A</FONT></TT><br>
+<TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<FONT COLOR="#0000ff">AT</FONT><FONT COLOR="#ff0000">G</FONT></TT><br>
+Suche abgeschlossen.</P>
+</td></tr></table>
+
+<P>Diese Vorgehensweise nennt man
+trivialen Algorithmus f&uuml;r das exakte string matching (mitunter
+auch wegen des Durchprobierens aller M&ouml;glichkeiten 'brute
+force'). Man ben&ouml;tigt f&uuml;r das Auffinden aller
+&Uuml;bereinstimmungen m*(n-m) Vergleichsoperationen (m ist die L&auml;nge
+des Musters, n die L&auml;nge des Textes).</P>
+<P>Bei langen Texten f&uuml;hrt dieser
+Aufwand zu inakzeptablen Rechenzeiten und der Einsatz effizienterer
+Algorithmen wird lohnenswert. Erstaunlich sp&auml;t, erst 1974,
+erschien ein Algorithmus, der im schlechtesten Fall n Vergleiche
+ben&ouml;tigt. Der Algorithmus von Knuth, Morris und Pratt [KMP]
+nutzt hierbei die Information &uuml;ber die Struktur des Musters aus,
+um unn&ouml;tige Mehrfachvergleiche zu vermeiden. Aho und Corasick
+verallgemeinerten diesen Ansatz f&uuml;r die gleichzeitige Suche nach
+mehreren Mustern [AC, 1975]. Aufsehen erregte 1977 die Idee von Boyer
+und Moore, das Muster von rechts nach links zu vergleichen und au&szlig;er
+der Struktur des Musters auch die vorkommenden Symbole zu
+ber&uuml;cksichtigen. Das Ergebnis ist ein sublinearer Algorithmus,
+der im Durchschnitt lediglich n/m Vergleiche ben&ouml;tigt [BM].
+Dieser Algorithmus soll im folgenden detailliert vorgestellt werden.</P>
+
+<h2>Idee des Boyer-Moore-Algorithmus</h2>
+
+<P>Der Boyer-Moore-Algorithmus vergleicht
+das Muster von rechts nach links mit dem Text. Ist bereits das erste
+verglichene Textsymbol ein Symbol, das im Muster &uuml;berhaupt nicht
+vorkommt, so kann das Muster um m Positionen hinter dieses Symbol
+weitergeschoben werden.</p>
+
+<table bgcolor="#ebebeb" cellpadding=10 cellspacing=10><tr><td>
+<p>Im obigen Beispiel bedeutet dies:</P>
+
+<P>1. Schritt<br>
+<TT><FONT COLOR="#0000ff">AG</FONT><FONT COLOR="#ff0000">C</FONT>AGCATGACGTACCGATTGAATATAGAGCGATGAGGA</TT><br>
+<TT><FONT COLOR="#0000ff">AT</FONT><FONT COLOR="#ff0000">G</FONT></TT><br>
+Mismatch: C kommt im Muster nicht vor -&gt; Muster um seine L&auml;nge m=3 weiterr&uuml;cken!</P>
+
+<P>2. Schritt<br>
+<TT>AGC<FONT COLOR="#0000ff">AG</FONT><FONT COLOR="#ff0000">C</FONT>ATGACGTACCGATTGAATATAGAGCGATGAGGA</TT><br>
+<TT>&nbsp;&nbsp;&nbsp;<FONT COLOR="#0000ff">AT</FONT><FONT COLOR="#ff0000">G</FONT></TT><br>
+Mismatch: C kommt im Muster nicht vor -&gt; Muster um seine L&auml;nge m=3 weiterr&uuml;cken!</P>
+
+<P>3. Schritt<br>
+<TT>AGCAGC<FONT COLOR="#0000ff">AT</FONT><FONT COLOR="#00ff00">G</FONT>ACGTACCGATTGAATATAGAGCGATGAGGA</TT><br>
+<TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<FONT COLOR="#0000ff">AT</FONT><FONT COLOR="#00ff00">G</FONT></TT><br>
+Kein Mismatch: Strategie &auml;ndern!</P>
+</td></tr></table>
+
+<P>Der g&uuml;nstigste Fall f&uuml;r den Boyer-Moore-Algorithmus tritt also
+ein, wenn jedesmal beim ersten Vergleich ein Textsymbol gefunden
+wird, das im Muster nicht vorkommt. Dann ben&ouml;tigt der
+Algorithmus nur n/m Vergleiche.</P>
+
+<P>Die eben beschriebene Vorgehensweise wird als &quot;Schlechtes
+Zeichen&quot;-Strategie (bad character heuristics) bezeichnet. Sie
+kann auch angewendet werden, wenn das gefundene Zeichen zwar schlecht
+ist, also zu einem Mismatch f&uuml;hrt, aber an anderer Stelle im
+Muster vorkommt. Dann allerdings kann das Muster nur so weit
+geschoben werden, bis dieses Vorkommen auf das Textsymbol
+ausgerichtet ist.</P>
+
+<table bgcolor="#ebebeb" cellpadding=10 cellspacing=10><tr><td>
+<p>Im obigen Beispiel:</P>
+
+<P>...<br>
+<TT>AGCAGCATGACGTAC<FONT COLOR="#0000ff">CG</FONT><FONT COLOR="#ff0000">A</FONT>TTGAATATAGAGCGATGAGGA</TT><br>
+<TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<FONT COLOR="#0000ff">AT</FONT><FONT COLOR="#ff0000">G</FONT></TT><br>
+Mismatch: A kommt im Muster erst sp&auml;ter -&gt; Muster um die Distanz zu A weiterr&uuml;cken!</P>
+
+<P>N&auml;chster Schritt<br>
+<TT>AGCAGCATGACGTACCG<FONT COLOR="#0000ff">ATT</FONT>GAATATAGAGCGATGAGGA</TT><br>
+<TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<FONT COLOR="#0000ff">ATG</FONT></TT><br>
+Vergleich wieder von rechts an beginnen!</P>
+</td></tr></table>
+
+<P>Zu dieser Vorgehensweise gibt es eine Alternative: die &quot;Gutes
+Ende&quot;-Strategie (good suffix heuristics). Sie nutzt das Wissen
+um die gefundene Teil&uuml;bereinstimmung von Text und Muster
+effektiv aus. Dabei wird gepr&uuml;ft, ob das mit dem Text
+&uuml;bereinstimmende Ende des Musters (suffix) noch einmal im Muster
+vorkommt. Wenn nicht, kann das Muster komplett um seine eigene L&auml;nge
+m weitergeschoben werden. Anderenfalls wird das Muster um die Distanz
+bis zum n&auml;chsten Auftreten des suffix im Muster weitergeschoben.</P>
+
+<table bgcolor="#ebebeb" cellpadding=10 cellspacing=10><tr><td>
+<P>In unserem Beispiel bedeutet dies z.B.:</P>
+
+<P>...<br>
+<TT>AGCAGCATGACGTACCGAATTGAATA<FONT COLOR="#0000ff">T</FONT><FONT COLOR="#ff0000">A</FONT><FONT COLOR="#00ff00">G</FONT>AGCGATGAGGA</TT><br>
+<TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<FONT COLOR="#0000ff">A</FONT><FONT COLOR="#ff0000">T</FONT><FONT COLOR="#00ff00">G</FONT></TT><br>
+Mismatch: A im Text und T im Muster passen nicht, aber das suffix G taucht im Muster nicht mehr auf -&gt; Muster um seine L&auml;nge m weiterr&uuml;cken!</P>
+
+<P>N&auml;chster Schritt:<br>
+<TT>AGCAGCATGACGTACCGAATTGAATATAG<FONT COLOR="#0000ff">AGC</FONT>GATGAGGA</TT><br>
+<TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<FONT COLOR="#0000ff">ATG</FONT></TT><br>
+</p>
+
+<P>Zum Vergleich: Die bad character heuristics h&auml;tte hier nur bis zum n&auml;chsten Auftreten von A im Muster, also um 1 Zeichen weitergeschoben:<br>
+<TT>AGCAGCATGACGTACCGAATTGAATAT<FONT COLOR="#0000ff">AGA</FONT>GCGATGAGGA</TT><br>
+<TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<FONT COLOR="#0000ff">ATG</FONT></TT><br>
+</p>
+
+</td></tr></table>
+
+<P>Bei der Ausf&uuml;hrung des Boyer-Moore-Algorithmus werden nun bei jedem
+Mismatch die Verschiebungen der beiden unterschiedlichen Strategien
+errechnet. Anschlie&szlig;end wird das Muster um die gr&ouml;&szlig;ere
+der beiden Distanzen verschoben. Danach wird der Vergleich zwischen
+Text und Muster wieder neu von rechts aus begonnen.</P>
+
+<P>Nach einer kompletten &Uuml;bereinstimmung (Treffer) wird die
+Verschiebedistanz anhand der &quot;Gutes Ende&quot;-Strategie
+bestimmt, siehe unten.</P>
+
+<P>Um den Boyer-Moore-Algorithmus effizient ausf&uuml;hren zu k&ouml;nnen,
+werden vor Beginn f&uuml;r beide Strategien Text und Muster
+analysiert und die Ergebnisse als Tabellen abgelegt. Dies hat den
+Vorteil, dass w&auml;hrend der Durchf&uuml;hrung Berechnungen nicht
+unn&ouml;tig wiederholt werden m&uuml;ssen.</P>
+
+<h2>Occurrance-Funktion f&uuml;r die &quot;Schlechtes Zeichen&quot;-Strategie</h2>
+
+<P>Da bei der &quot;Schlechtes Zeichen&quot;-Strategie das Auftreten eines
+Zeichens aus dem Text im Muster wesentlich ist, wird eine
+occurance-Funktion occ() f&uuml;r das Alphabet des Textes &uuml;ber
+das Muster berechnet. Der Funktionswert ist f&uuml;r alle Zeichen des
+Text-Alphabets der Index des letzten Auftretens dieses Zeichens im
+Muster bzw. -1 falls das Zeichen im Muster nicht vorkommt.</P>
+
+<P>Achtung: Der Index wird in den meisten F&auml;llen mit 0 beginnend gez&auml;hlt!</P>
+
+<table bgcolor="#ebebeb" cellpadding=10 cellspacing=10><tr><td>
+
+<P>F&uuml;r unser obiges Beispiel ergibt sich occ() wie folgt:</p>
+
+<p>Umgang des Text-Alphabets: {'A'; 'C'; 'G'; 'T'}</p>
+<p>
+occ('ATG','A')=0, da A zuletzt als erstes Zeichen in ATG vorkommt -&gt; Index 0<br>
+occ('ATG','C')=-1, da C gar nicht in ATG vorkommt<br>
+occ('ATG','G')=2, da G zuletzt als drittes Zeichen in ATG vorkommt -&gt; Index 2<br>
+occ('ATG','T')=1, da T zuletzt als zweites Zeichen in ATG vorkommt -&gt; Index 1</p>
+
+<P>Oft wird occ() als Tabelle geschrieben:</P>
+<table border=1 cellpadding=5>
+ <tr>
+  <td align=right><p>a</p></td>
+  <td><p>A</p></td>
+  <td><p>C</p></td>
+  <td><p>G</p></td>
+  <td><p>T</p></td>
+ </tr>
+ <tr>
+  <td align=right><p>occ(pattern, a)</p></td>
+  <td><p>0</p></td>
+  <td><p>-1</p></td>
+  <td><p>2</p></td>
+  <td><p>1</p></td>
+ </tr>
+</table>
+
+</td></tr></table>
+
+<h2>Shifting-Funktion f&uuml;r die &quot;Gutes Ende&quot;-Strategie</h2>
+
+<P>F&uuml;r die &quot;Gutes Ende&quot;-Strategie wird ein Array shift()
+berechnet, das f&uuml;r jeden Index i angibt, um wieviel das Muster
+geschoben werden kann, wenn ein Mismatch an Position i-1 auftritt,
+d.h. wenn das an Position i beginnende Suffix &uuml;bereingestimmt
+hat. Berechnet wird shift() von i=0 (Musteranfang) bis i=m (Position
+rechts neben dem Musterende).</P>
+
+<P>Nach einer kompletten &Uuml;bereinstimmung (i=0) ist die Verschiebedistanz
+ die Differenz aus L&auml;nge und &ldquo;Randbreite&rdquo; des
+Musters (unter Rand versteht man gleiche Zeichenketten am Beginn und
+Ende des Musters, die k&uuml;rzer als das Muster sind &ndash; z.B.
+sind die Zeichen &ldquo;um&rdquo; im Muster &ldquo;um die Ecke herum&rdquo;
+der l&auml;ngste und neben der immer randbildenden leeren
+Zeichenfolge auch einzige Rand).</P>
+
+<P>Die exakte Berechnung von shift() ist nicht besonders einfach, da jeweils
+suffix und Gesamtmuster analysiert werden m&uuml;ssen. Bei kurzen
+Mustern ist die Situation aber noch &uuml;berschaubar.</P>
+
+<table bgcolor="#ebebeb" cellpadding=10 cellspacing=10><tr><td>
+
+<P>F&uuml;r unser obiges Beispiel ergibt sich shift() wie folgt:</P>
+
+<P>Muster: 'ATG', wir bilden shift() von rechts aus,</P>
+
+<P>
+shift('ATG',3)=1, per Definition, da das &uuml;bereinstimmende Suffix die leere
+Zeichenfolge ist,<br>
+shift('ATG',2)=3, da das passende Suffix 'G' kein weiteres Mal in 'ATG' vorkommt -&gt;
+Muster hinter 'G' schieben,<br>
+shift('ATG',1)=3, da das passende Suffix 'TG' kein weiteres Mal in 'ATG' vorkommt -&gt;
+Muster hinter 'TG' schieben,<br>
+shift('ATG',0)=3, da i=0 (Treffer) und der l&auml;ngste Rand die L&auml;nge 0 hat -&gt;
+Muster um dessen gesamte L&auml;nge schieben.
+</P>
+
+<P>Als Tabelle geschrieben lautet shift():</P>
+
+
+<table border=1 cellpadding=5>
+ <tr>
+  <td align=right><p>pattern</p></td>
+  <td><p>A</p></td>
+  <td><p>T</p></td>
+  <td><p>G</p></td>
+  <td><p>&nbsp;</p></td>
+ </tr>
+ <tr>
+  <td align=right><p>i</p></td>
+  <td><p>0</p></td>
+  <td><p>1</p></td>
+  <td><p>2</p></td>
+  <td><p>3</p></td>
+ </tr>
+ <tr>
+  <td align=right><p>shift(pattern, i)</p></td>
+  <td><p>3</p></td>
+  <td><p>3</p></td>
+  <td><p>3</p></td>
+  <td><p>1</p></td>
+ </tr>
+</table>
+
+</td></tr></table>
+
+<P>Der Suchalgorithmus vergleicht die Symbole des Musters von rechts nach
+links mit dem Text. Bei vollst&auml;ndiger &Uuml;bereinstimmung wird
+das Muster anschlie&szlig;end so weit geschoben, wie es sein Rand
+zul&auml;sst (der shift-Funktion mit i=0 zu entnehmen). Nach einem
+Mismatch wird das Muster um das Maximum der Werte geschoben, die sich
+aus der &quot;Gutes-Ende&quot;- und der &quot;Schlechtes
+Zeichen&quot;-Strategie ergeben:</P>
+
+<pre>
+boyermoorealgorithm(text, pattern)
+
+   n = len(text)
+   m = len(pattern)
+   i = 0
+   j = 0
+
+   # von Textanfang bis Textende
+   while i &lt;= n-m:
+
+       # Vergleiche pattern von rechts nach links
+       j = m-1
+       while j&gt;=0 and pattern[j]==text[i+j]:
+           j = j-1
+
+       # Wenn kompletter Treffer:
+       if j&lt;0:
+           report(i)
+           # Verschiebe pattern um Differenz L&auml;nge-Randbreite
+           i = i+shift(pattern,0)
+
+       # Wenn Abbruch wegen Mismatch
+       else:
+           # Verschiebe pattern um h&ouml;chsten Wert der beiden Strategien
+           i = i + max(
+                   shift(pattern, j+1),
+                   j-occ(pattern, text[i+j])
+                   )
+</pre>
+
+
+<h2>Literatur</h2>
+
+<P>
+[AC] A.V. Aho, M.J. Corasick: Efficient String Matching: An Aid to Bibliographic Search. Communications of
+the ACM 18, 6, 333-340 (1975)<br>
+
+[BM] R.S. Boyer, J.S. Moore: A Fast String Searching Algorithm. Communications of the ACM 20, 10, 762-772
+(1977)<br>
+
+[KMP]D.E. Knuth, J.H. Morris, V.R.  Pratt: Fast Pattern Matching in Strings. SIAM Journal of Computing 6,
+2, 323-350 (1977)<br>
+
+<i>Der Algorithmus [KMP] erschien 1974 als Institutsbericht und erst 1977 in einer Fachzeitschrift.</i>
+</P>
+
+<P>Weiterf&uuml;hrende Informationen:</P>
+<P><a href="http://www-igm.univ-mlv.fr/~lecroq/string/" target="_top">http://www-igm.univ-mlv.fr/~lecroq/string/</a>
+(auch als <a href="http://www-igm.univ-mlv.fr/~lecroq/string/string.pdf">PDF</a>)</P>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+  </body>
+</html>

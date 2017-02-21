@@ -1,0 +1,1538 @@
+
+
+
+<!DOCTYPE html PUBLIC
+  "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de"
+      lang="de">
+
+  
+    
+    
+    
+    
+    
+
+  
+
+  <head>
+
+    <meta http-equiv="Content-Type"
+          content="text/html;charset=utf-8" />
+
+    
+      <base href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/5-vorlesung-makromolekuele-sequenzen" /><!--[if lt IE 7]></base><![endif]-->
+    
+
+    <meta name="generator" content="Plone - http://plone.org" />
+
+    <link rel="kss-base-url" href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/5-vorlesung-makromolekuele-sequenzen" />
+
+  
+  
+    
+      <script type="text/javascript"
+              src="http://webclu.bio.wzw.tum.de/binfo/portal_javascripts/Plone%20Default/jquery-cachekey9948.js">
+      </script>
+    
+    
+  
+
+  
+    
+      <script type="text/javascript"
+              src="http://webclu.bio.wzw.tum.de/binfo/portal_javascripts/Plone%20Default/dropdown-cachekey7680.js">
+      </script>
+    
+    
+  
+
+  
+    
+      <script type="text/javascript"
+              src="http://webclu.bio.wzw.tum.de/binfo/portal_javascripts/Plone%20Default/ie5fixes-cachekey5712.js">
+      </script>
+    
+    
+  
+
+  
+    
+      <script type="text/javascript"
+              src="http://webclu.bio.wzw.tum.de/binfo/portal_javascripts/Plone%20Default/sarissa-cachekey6130.js">
+      </script>
+    
+    
+  
+
+  
+    
+      <script type="text/javascript"
+              src="http://webclu.bio.wzw.tum.de/binfo/portal_javascripts/Plone%20Default/resourcebase2-dom-fp-cachekey1155.js">
+      </script>
+    
+    
+  
+
+  
+    
+      <script type="text/javascript"
+              src="http://webclu.bio.wzw.tum.de/binfo/portal_javascripts/Plone%20Default/resourcekukit-cachekey0348.js">
+      </script>
+    
+    
+  
+
+  
+    
+      <script type="text/javascript"
+              src="http://webclu.bio.wzw.tum.de/binfo/portal_javascripts/Plone%20Default/input-label-cachekey9741.js">
+      </script>
+    
+    
+  
+
+  
+  
+    
+    
+      <style type="text/css" media="screen"><!-- @import url(http://webclu.bio.wzw.tum.de/binfo/portal_css/Plone%20Default/member-cachekey5331.css); --></style>
+    
+    
+  
+
+  
+    
+    
+      <style type="text/css"><!-- @import url(http://webclu.bio.wzw.tum.de/binfo/portal_css/Plone%20Default/base-cachekey1898.css); --></style>
+    
+    
+  
+
+  
+    
+    
+      <style type="text/css" media="all"><!-- @import url(http://webclu.bio.wzw.tum.de/binfo/portal_css/Plone%20Default/survey_results-cachekey2224.css); --></style>
+    
+    
+  
+
+  
+    
+    
+      <style type="text/css" media="all"><!-- @import url(http://webclu.bio.wzw.tum.de/binfo/portal_css/Plone%20Default/ploneCustom-cachekey6260.css); --></style>
+    
+    
+  
+
+  
+  <link rel="kinetic-stylesheet" type="text/css"
+        href="http://webclu.bio.wzw.tum.de/binfo/portal_kss/Plone%20Default/at-cachekey3337.kss" />
+
+
+<title>5 Vorlesung Makromoleküle / Sequenzen &mdash; TUM-Genome Oriented Bioinformatics</title>
+
+
+    <!-- Internet Explorer Fixes -->
+    <!--[if IE]>
+        <style type="text/css" media="all">@import url(http://webclu.bio.wzw.tum.de/binfo/IEFixes.css);</style>
+        
+        <script type="text/javascript"
+                src="http://webclu.bio.wzw.tum.de/binfo/iefixes.js">
+        </script>
+        
+    <![endif]-->
+
+    
+    <link rel="author"
+          href="http://webclu.bio.wzw.tum.de/binfo/author/mewes"
+          title="Autoreninformation" />
+
+
+
+    <link rel="shortcut icon" type="image/x-icon"
+          href="http://webclu.bio.wzw.tum.de/binfo/favicon.ico" />
+
+
+
+    <link rel="home"
+          href="http://webclu.bio.wzw.tum.de/binfo"
+          title="Startseite" />
+
+    <link rel="contents"
+          href="http://webclu.bio.wzw.tum.de/binfo/sitemap"
+          title="Übersicht" />
+
+
+
+
+
+
+    <link rel="search"
+          href="http://webclu.bio.wzw.tum.de/binfo/search_form"
+          title="Search this site" />
+
+
+
+    <!-- Disable IE6 image toolbar -->
+    <meta http-equiv="imagetoolbar" content="no" />
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+  </head>
+
+  <body class="section-edu template-file_view" dir="ltr">
+    <div id="visual-portal-wrapper">
+
+      <div id="portal-top">
+        <div id="portal-header">
+<p class="hiddenStructure">
+  <a accesskey="2"
+     href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/5-vorlesung-makromolekuele-sequenzen/view#documentContent">Direkt zum Inhalt</a> |
+
+  <a accesskey="6"
+     href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/5-vorlesung-makromolekuele-sequenzen/view#portlet-navigation-tree">Direkt zur Navigation</a>
+</p>
+
+<ul id="portal-siteactions">
+
+    <li id="siteaction-sitemap"><a
+    href="http://webclu.bio.wzw.tum.de/binfo/sitemap"
+    accesskey="3" title="Übersicht">Übersicht</a></li>
+    <li id="siteaction-accessibility"><a
+    href="http://webclu.bio.wzw.tum.de/binfo/accessibility-info"
+    accesskey="0" title="Barrierefreiheit">Barrierefreiheit</a></li>
+    <li id="siteaction-contact"><a
+    href="http://webclu.bio.wzw.tum.de/binfo/contact-info"
+    accesskey="9" title="Kontakt">Kontakt</a></li>
+    <li id="siteaction-plone_setup"><a
+    href="http://webclu.bio.wzw.tum.de/binfo/plone_control_panel"
+    accesskey="" title="Konfiguration">Konfiguration</a></li>
+
+</ul>
+
+<div id="portal-searchbox">
+    <form name="searchform"
+          action="http://webclu.bio.wzw.tum.de/binfo/search">
+
+        <label for="searchGadget" class="hiddenStructure">Website durchsuchen</label>
+
+        <div class="LSBox">
+        <input name="SearchableText" type="text" size="18"
+               title="Website durchsuchen" accesskey="4"
+               class="inputLabel" id="searchGadget" />
+
+        <input class="searchButton" type="submit"
+               value="Suche" />
+    
+        <div class="searchSection">
+            <input id="searchbox_currentfolder_only"
+                   class="noborder" type="checkbox"
+                   name="path"
+                   value="/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien" />
+            <label for="searchbox_currentfolder_only"
+                   style="cursor: pointer">nur im aktuellen Bereich</label>
+        </div>
+
+        <div class="LSResult" id="LSResult" style=""><div class="LSShadow" id="LSShadow"></div></div>
+        </div>
+    </form>
+
+    <div id="portal-advanced-search" class="hiddenStructure">
+        <a href="http://webclu.bio.wzw.tum.de/binfo/search_form"
+           accesskey="5">Erweiterte Suche…</a>
+    </div>
+
+</div>
+
+<a id="portal-logo" accesskey="1"
+   href="http://webclu.bio.wzw.tum.de/binfo">
+    <img src="http://webclu.bio.wzw.tum.de/binfo/logo.jpg" alt="" title="" height="75" width="823" /></a>
+
+
+</div>
+
+<div id="portal-personaltools-wrapper">
+
+<h5 class="hiddenStructure">Benutzerspezifische Werkzeuge</h5>
+
+<ul id="portal-personaltools" class="visualInline">
+   
+       <li><a id="user-name"
+              href="http://webclu.bio.wzw.tum.de/binfo/dashboard"><img src="http://webclu.bio.wzw.tum.de/binfo/user.gif" alt="" title="User" height="16" width="16" />
+            <span class="visualCaseSensitive">Andreas Kirschner</span></a></li>
+   
+
+    
+        <li>
+            <a href="http://webclu.bio.wzw.tum.de/binfo/plone_memberprefs_panel">Meine Einstellungen</a>
+        </li>
+    
+    
+        <li>
+            <a href="http://webclu.bio.wzw.tum.de/binfo/logout">Abmelden</a>
+        </li>
+    
+
+</ul>
+</div>
+
+
+    <ul id="portal-languageselector">
+        
+        <li class="currentLanguage">
+                <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/5-vorlesung-makromolekuele-sequenzen/view?set_language=de"
+                   title="German">
+                    
+                        <img width="14" height="11" alt=""
+                             src="http://webclu.bio.wzw.tum.de/binfo/++resource++country-flags/de.gif"
+                             class="currentItem"
+                             title="German" />
+                    
+                    
+                </a>&nbsp; 
+        </li>
+        
+        
+        <li class="">
+                <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/5-vorlesung-makromolekuele-sequenzen/view?set_language=en"
+                   title="English">
+                    
+                        <img width="14" height="11" alt=""
+                             src="http://webclu.bio.wzw.tum.de/binfo/++resource++country-flags/gb.gif"
+                             class="" title="English" />
+                    
+                    
+                </a>&nbsp; 
+        </li>
+        
+    </ul>
+
+
+<div id="portal-breadcrumbs">
+
+    <span id="breadcrumbs-you-are-here">Sie sind hier:</span>
+    <a href="http://webclu.bio.wzw.tum.de/binfo">Startseite</a>
+    <span class="breadcrumbSeparator">
+        &rarr;
+        
+    </span>
+    <span dir="ltr">
+        
+            <a href="http://webclu.bio.wzw.tum.de/binfo/edu">Lehre</a>
+            <span class="breadcrumbSeparator">
+                &rarr;
+                
+            </span>
+            
+         
+    </span>
+    <span dir="ltr">
+        
+            <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011">Wintersemester 2010/2011</a>
+            <span class="breadcrumbSeparator">
+                &rarr;
+                
+            </span>
+            
+         
+    </span>
+    <span dir="ltr">
+        
+            <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf">Einführung in die Bioinformatik I</a>
+            <span class="breadcrumbSeparator">
+                &rarr;
+                
+            </span>
+            
+         
+    </span>
+    <span dir="ltr">
+        
+            <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien">Folien</a>
+            <span class="breadcrumbSeparator">
+                &rarr;
+                
+            </span>
+            
+         
+    </span>
+    <span dir="ltr">
+        
+            
+            
+            <span>5 Vorlesung Makromoleküle / Sequenzen</span>
+         
+    </span>
+
+</div>
+
+      </div>
+
+      <div class="visualClear" id="clear-space-before-wrapper-table"><!-- --></div>
+
+      <table id="portal-columns">
+        <tbody>
+          <tr>
+            
+            <td id="portal-column-one">
+              <div class="visualPadding">
+                
+                  
+<div id="portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f62696e666f0a6e617669676174696f6e"
+     class="portletWrapper kssattr-portlethash-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f62696e666f0a6e617669676174696f6e">
+<dl class="portlet portletNavigationTree">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        
+       <a href="http://webclu.bio.wzw.tum.de/binfo/sitemap"
+          class="tile">Navigation</a>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem lastItem">
+        <ul class="navTree navTreeLevel0">
+            
+            
+
+
+
+<li class="navTreeItem visualNoMarker navTreeItemInPath navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu"
+           class="state-published navTreeItemInPath navTreeFolderish"
+           title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/folder_icon.gif" alt="Folder" />
+            <span>Lehre</span>
+        </a>
+        
+    </div>
+
+    <ul class="navTree navTreeLevel1">  
+        
+
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/projects"
+           class="state-published navTreeFolderish"
+           title="An unserem Lehrstuhl gibt es ständig neue Projekte für Abschlussarbeiten. Nachfolgende Liste gibt eine Auswahl an formulierten Themenstellungen für Bachelor-, Master- und Diplomarbeiten. Bei Interesse wenden Sie sich bitte an den jeweils beim Thema angegebenen Ansprechpartner.
+Daneben können Sie jederzeit in den Gruppen von Prof. Mewes und Prof. Frishman nach weiteren Themen anfragen, die sich aus den aktuell bearbeiteten Projekten ableiten lassen. ">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/folder_icon.gif" alt="Folder" />
+            <span>Themen für Abschlussarbeiten (Bachelor, Master, Diplom)</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/ss2010"
+           class="state-published navTreeFolderish" title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/folder_icon.gif" alt="Folder" />
+            <span>Sommersemester 2010</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/archiv"
+           class="state-private navTreeFolderish"
+           title="Material aus vergangenen Semestern">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/folder_icon.gif" alt="Folder" />
+            <span>Archiv</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeItemInPath navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011"
+           class="state-published navTreeItemInPath navTreeFolderish"
+           title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/folder_icon.gif" alt="Folder" />
+            <span>Wintersemester 2010/2011</span>
+        </a>
+        
+    </div>
+
+    <ul class="navTree navTreeLevel2">  
+        
+
+
+
+<li class="navTreeItem visualNoMarker navTreeItemInPath navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf"
+           class="state-published navTreeItemInPath navTreeFolderish"
+           title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/eclecture.png" alt="Lecture" />
+            <span>Einführung in die Bioinformatik I</span>
+        </a>
+        
+    </div>
+
+    <ul class="navTree navTreeLevel3">  
+        
+
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/news"
+           class="state-published navTreeFolderish" title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/folder_icon.gif" alt="Folder" />
+            <span>News</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeItemInPath navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien"
+           class="state-visible navTreeItemInPath navTreeFolderish"
+           title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/folder_icon.gif" alt="Folder" />
+            <span>Folien</span>
+        </a>
+        
+    </div>
+
+    <ul class="navTree navTreeLevel4">  
+        
+
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/1.-vorlesung/view"
+           class="state-published"
+           title="Einführung in die Lebenswissenschaften; Studiengang Bioinformatik">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/pdf_icon.gif" alt="File" />
+            <span>1. Vorlesung</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/2.-vorlesung/view"
+           class="state-published"
+           title="Biologie ist komplex; Ursache von Erkrankungen; Biomoleküle">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/pdf_icon.gif" alt="File" />
+            <span>2. Vorlesung</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/3.-vorlesung/view"
+           class="state-published" title="Biomoleküle">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/pdf_icon.gif" alt="File" />
+            <span>3. Vorlesung</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/4.-vorlesung/view"
+           class="state-published"
+           title="Funktionen der Biomoleküle, Chemische Bindungen">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/pdf_icon.gif" alt="File" />
+            <span>4. Vorlesung</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeCurrentNode">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/5-vorlesung-makromolekuele-sequenzen/view"
+           class="state-published navTreeCurrentItem navTreeCurrentNode"
+           title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/pdf_icon.gif" alt="File" />
+            <span>5 Vorlesung Makromoleküle / Sequenzen</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+
+
+    </ul>
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/material"
+           class="state-visible navTreeFolderish" title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/folder_icon.gif" alt="Folder" />
+            <span>Material</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/uebungen"
+           class="state-visible navTreeFolderish" title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/folder_icon.gif" alt="Folder" />
+            <span>Übungen</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+
+
+    </ul>
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/praktikum"
+           class="state-published navTreeFolderish" title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/eclecture.png" alt="Lecture" />
+            <span>Praktikum "Genomorientierte Bioinformatik"</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/hauptseminar"
+           class="state-published navTreeFolderish" title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/eclecture.png" alt="Lecture" />
+            <span>Hauptseminar Bioinformatik</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/sysbio_diseases"
+           class="state-published navTreeFolderish" title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/eclecture.png" alt="Lecture" />
+            <span>Systems Biology of Diseases and Drug Treatment</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/advanced_seminar"
+           class="state-published navTreeFolderish"
+           title="Die Biologie des Alterns gehört zu den großen Herausforderungen einer präventiven, individualisierten Medizin. ">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/eclecture.png" alt="Lecture" />
+            <span>Fortgeschrittenenseminar "Ageing"</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/structural_bioinformatics"
+           class="state-published navTreeFolderish" title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/eclecture.png" alt="Lecture" />
+            <span>Strukturbioinformatik</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/metabolomics"
+           class="state-published navTreeFolderish"
+           title="Diese Vorlesung wir in diesem Semester nicht angeboten">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/eclecture.png" alt="Lecture" />
+            <span>Metabolomics</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_nf_ws2010"
+           class="state-published navTreeFolderish" title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/eclecture.png" alt="Lecture" />
+            <span>Bioinformatik für Biowissenschaften I</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+
+
+    </ul>
+    
+</li>
+
+
+
+
+    </ul>
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/forschung"
+           class="state-published navTreeFolderish" title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/folder_icon.gif" alt="Folder" />
+            <span>Forschung</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/services"
+           class="state-published" title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/document_icon.gif" alt="Page" />
+            <span>Services</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/personen"
+           class="state-published" title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/document_icon.gif" alt="Page" />
+            <span>Personen</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/kontakt"
+           class="state-published" title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/document_icon.gif" alt="Page" />
+            <span>Kontakt</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/impressum"
+           class="state-published" title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/document_icon.gif" alt="Page" />
+            <span>Impressum</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/bioinformatics-jobs"
+           class="state-published navTreeFolderish"
+           title="Open positions at the TUM, Helmholtz-Center Munich or related institutions">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/folder_icon.gif" alt="Folder" />
+            <span>Bioinformatics Jobs</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/intranet"
+           class="state-visible navTreeFolderish" title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/folder_icon.gif" alt="Folder" />
+            <span>Intranet</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+
+
+        </ul>
+        <span class="portletBottomLeft"></span>
+        <span class="portletBottomRight"></span>
+    </dd>
+</dl>
+
+</div>
+
+<div id="portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f62696e666f0a696e7472616e65745f706f72746c6574"
+     class="portletWrapper kssattr-portlethash-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f62696e666f0a696e7472616e65745f706f72746c6574">
+
+  
+  
+    <div>
+         
+    </div>
+  
+
+  
+  
+</div>
+
+
+<div class="managePortletsLink">
+  <a title="Zeige Portletkonfiguration"
+     href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/5-vorlesung-makromolekuele-sequenzen/@@manage-portlets">Portleteinstellungen</a>
+</div>
+
+                
+                &nbsp;
+              </div>
+            </td>
+            
+
+            
+            <td id="portal-column-content">
+
+              
+                <div class="documentEditable">
+
+                  
+
+    
+
+        <h5 class="hiddenStructure">Ansichten</h5>
+
+        <ul class="contentViews" id="content-views">
+
+            
+              <li id="contentview-view" class="selected">
+                <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/5-vorlesung-makromolekuele-sequenzen/view">Anzeigen</a>
+              </li>
+            
+            
+              <li id="contentview-edit" class="plain">
+                <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/5-vorlesung-makromolekuele-sequenzen/edit">Bearbeiten</a>
+              </li>
+            
+            
+              <li id="contentview-local_roles" class="plain">
+                <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/5-vorlesung-makromolekuele-sequenzen/@@sharing">Zugriff</a>
+              </li>
+            
+
+        </ul>
+        
+    
+
+
+<div class="contentActions">
+
+    
+
+        
+
+        
+
+        <ul id="contentActionMenus">
+
+    <li>
+
+        <dl class="actionMenu"
+            id="plone-contentmenu-workflow">
+          <dt class="actionMenuHeader label-state-published">
+            <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/5-vorlesung-makromolekuele-sequenzen/content_status_history"
+               title="Ändere den Status dieses Artikels.">
+               
+                  
+                  <span>Status:</span>
+                  <span class="state-published">Veröffentlicht</span>
+                  <span class="arrowDownAlternative">&#9660;</span>
+               
+            </a>
+          </dt>
+          <dd class="actionMenuContent">
+            <ul>
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/5-vorlesung-makromolekuele-sequenzen/content_status_modify?workflow_action=reject"
+                       class=""
+                       id="workflow-transition-reject"
+                       title="">
+                        
+                        
+                        <span class="subMenuTitle">Ablehnen</span>
+                    </a>
+                    
+                  </li>
+                
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/5-vorlesung-makromolekuele-sequenzen/content_status_modify?workflow_action=retract"
+                       class=""
+                       id="workflow-transition-retract"
+                       title="">
+                        
+                        
+                        <span class="subMenuTitle">Zurückziehen</span>
+                    </a>
+                    
+                  </li>
+                
+                
+                  <li class="actionSeparator">
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/5-vorlesung-makromolekuele-sequenzen/content_status_history"
+                       class="kssIgnore" id="advanced"
+                       title="">
+                        
+                        
+                        <span class="subMenuTitle">Erweitert…</span>
+                    </a>
+                    
+                  </li>
+                
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/5-vorlesung-makromolekuele-sequenzen/placeful_workflow_configuration"
+                       class="kssIgnore" id="policy"
+                       title="">
+                        
+                        
+                        <span class="subMenuTitle">Richtlinie</span>
+                    </a>
+                    
+                  </li>
+                
+            </ul>
+          </dd>
+        </dl>
+
+    </li>
+    <li>
+
+        <dl class="actionMenu"
+            id="plone-contentmenu-actions">
+          <dt class="actionMenuHeader label-">
+            <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/folder_contents"
+               title="Aktionen für den aktuellen Artikel">
+               
+                  
+                  <span>Aktionen</span>
+                  
+                  <span class="arrowDownAlternative">&#9660;</span>
+               
+            </a>
+          </dt>
+          <dd class="actionMenuContent">
+            <ul>
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/5-vorlesung-makromolekuele-sequenzen/object_cut"
+                       class="actionicon-object_buttons-cut"
+                       id="cut" title="">
+                        
+                        <img width="16" height="16" alt=""
+                             src="http://webclu.bio.wzw.tum.de/binfo/cut_icon.gif"
+                             title="" />
+                        <span class="subMenuTitle">Ausschneiden</span>
+                    </a>
+                    
+                  </li>
+                
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/5-vorlesung-makromolekuele-sequenzen/object_copy"
+                       class="actionicon-object_buttons-copy"
+                       id="copy" title="">
+                        
+                        <img width="16" height="16" alt=""
+                             src="http://webclu.bio.wzw.tum.de/binfo/copy_icon.gif"
+                             title="" />
+                        <span class="subMenuTitle">Kopieren</span>
+                    </a>
+                    
+                  </li>
+                
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/5-vorlesung-makromolekuele-sequenzen/delete_confirmation"
+                       class="actionicon-object_buttons-delete"
+                       id="delete" title="">
+                        
+                        <img width="16" height="16" alt=""
+                             src="http://webclu.bio.wzw.tum.de/binfo/delete_icon.gif"
+                             title="" />
+                        <span class="subMenuTitle">Löschen</span>
+                    </a>
+                    
+                  </li>
+                
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/5-vorlesung-makromolekuele-sequenzen/object_rename"
+                       class="actionicon-object_buttons-rename"
+                       id="rename" title="">
+                        
+                        
+                        <span class="subMenuTitle">Umbenennen</span>
+                    </a>
+                    
+                  </li>
+                
+            </ul>
+          </dd>
+        </dl>
+
+    </li>
+    <li>
+
+        <dl class="actionMenu"
+            id="plone-contentmenu-translate">
+          <dt class="actionMenuHeader label-">
+            <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/5-vorlesung-makromolekuele-sequenzen/manage_translations_form"
+               title="Manage translations for your content.">
+               
+                  
+                  <span>Translate into...</span>
+                  
+                  <span class="arrowDownAlternative">&#9660;</span>
+               
+            </a>
+          </dt>
+          <dd class="actionMenuContent">
+            <ul>
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/5-vorlesung-makromolekuele-sequenzen/@@translate?newlanguage=en"
+                       class="" id="translate_into_en"
+                       title="Translate into English">
+                        
+                        <img width="16" height="16" alt=""
+                             src="/++resource++country-flags/gb.gif"
+                             title="Translate into English" />
+                        <span class="subMenuTitle">Englisch</span>
+                    </a>
+                    
+                  </li>
+                
+                
+                  <li class="actionSeparator">
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/5-vorlesung-makromolekuele-sequenzen/manage_translations_form"
+                       class="" id="_manage_translations"
+                       title="">
+                        
+                        
+                        <span class="subMenuTitle">Übersetzungen verwalten...</span>
+                    </a>
+                    
+                  </li>
+                
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/@@language-controlpanel"
+                       class="" id="_language_settings"
+                       title="">
+                        
+                        
+                        <span class="subMenuTitle">Spracheinstellungen...</span>
+                    </a>
+                    
+                  </li>
+                
+            </ul>
+          </dd>
+        </dl>
+
+    </li>
+
+</ul>
+
+
+    
+
+</div>
+
+
+                  <div id="region-content" class="documentContent">
+
+                    <span id="contentTopLeft"></span>
+                    <span id="contentTopRight"></span>
+                    
+                    <a name="documentContent"></a>
+
+                    
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+
+                    
+                    <div id="viewlet-above-content"><div id="plone-lock-status">
+  
+</div>
+</div>
+
+                    
+                    
+                    <div id="content">
+                      
+                      <div>
+    
+
+        
+
+        <h1 class="documentFirstHeading"> 
+            
+        <span class=" kssattr-atfieldname-title kssattr-templateId-widgets/string kssattr-macro-string-field-view"
+              id="parent-fieldname-title">
+            5 Vorlesung Makromoleküle / Sequenzen
+        </span>
+    
+        </h1>
+
+        <div class="documentByLine" id="plone-document-byline">
+  
+
+  
+    <span class="documentAuthor">erstellt von <a href="http://webclu.bio.wzw.tum.de/binfo/author/mewes">Werner Mewes</a></span>
+  
+
+  <span class="documentModified">
+    &mdash;
+    <span>zuletzt verändert:</span>
+    Nov 19, 2010 03:16 PM
+  </span>
+
+  
+
+  
+
+  
+
+</div>
+
+
+
+
+        <p class="documentDescription">
+            
+        <span class=" kssattr-atfieldname-description kssattr-templateId-widgets/textarea kssattr-macro-textarea-field-view"
+              id="parent-fieldname-description">
+            
+        </span>
+    
+        </p>
+
+        
+
+
+        <p>
+            
+      <span>
+      
+      
+        
+
+          
+              <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/5-vorlesung-makromolekuele-sequenzen/at_download/file">
+                <img src="http://webclu.bio.wzw.tum.de/binfo/pdf.png" />
+                1011_Vorlesung5.pdf
+              </a>
+              <span class="discreet">
+                  &mdash;
+                  PDF document,
+                  3623Kb
+              </span>
+          
+          
+
+        
+      
+    </span>
+    
+        </p>
+
+        
+
+        <div class="relatedItems">
+    
+        
+            
+        
+    
+</div>
+    
+        <div class="visualClear"><!-- --></div>
+<div class="documentActions">
+    
+
+    <h5 class="hiddenStructure">Artikelaktionen</h5>
+
+    <ul>
+    
+        <li id="document-action-print">
+            <a href="javascript:this.print();" title="">Drucken</a>
+        </li>
+    
+    
+        <li id="document-action-extedit">
+            <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/5-vorlesung-makromolekuele-sequenzen/external_edit"
+               title="">Mit externer Anwendung bearbeiten</a>
+        </li>
+    
+
+    </ul>
+    
+
+    
+
+</div>
+
+<div class="reviewHistory" id="review-history">
+    
+</div>
+
+
+    
+</div>
+                    </div>
+                    
+
+                    
+                    
+                      
+    
+
+
+
+
+                    
+                    
+
+                    <span id="contentBottomLeft"></span>
+                    <span id="contentBottomRight"></span>
+
+                  </div>
+
+                </div>
+
+              
+            </td>
+            
+
+            
+            
+            
+          </tr>
+        </tbody>
+      </table>
+      
+
+      <div class="visualClear" id="clear-space-before-footer"><!-- --></div>
+      
+      
+
+      
+
+        <div id="portal-footer">
+
+<p>
+    &copy; Technische Universit&auml;t M&uuml;nchen - Lehrstuhl f&uuml;r Genomorientierte Bioinformatik
+</p>
+
+</div>
+
+  <div id="portal-colophon">
+      
+
+      
+
+      <div class="colophonWrapper">
+      <ul>
+        <li>
+          <a href="http://plone.org"
+             title="Diese Website wurde mit Plone, dem Open-Source Content-Management-System erstellt. Hier erhalten Sie weitere Informationen.">Powered by Plone</a>
+        </li>
+        <li>
+          <a href="http://validator.w3.org/check/referer"
+             title="Diese Website enthält valides XHTML.">Gültiges XHTML</a>
+        </li>
+        <li>
+          <a href="http://jigsaw.w3.org/css-validator/check/referer&amp;warning=no&amp;profile=css3&amp;usermedium=all"
+             title="Diese Website wurde mit gültigem CSS erstellt.">Gültiges CSS</a>
+        </li>
+        <li>
+          <a href="http://www.section508.gov"
+             title="Diese Website entspricht den Barrierefreiheitsrichtlinien der US-Regierung nach Abschnitt 508.">Section 508</a>
+        </li>
+        <li>
+          <a href="http://www.w3.org/WAI/WCAG1AA-Conformance"
+             title="Diese Website entspricht den W3C-WAI-Richtlinien zur Barrierefreiheit von Websites. ">WCAG</a>
+        </li>
+      </ul>
+      </div>
+
+    </div>
+
+
+
+      
+
+      <div class="visualClear"><!-- --></div>
+    </div>
+<div id="kss-spinner"><img alt=""
+                           src="http://webclu.bio.wzw.tum.de/binfo/spinner.gif" /></div>
+</body>
+</html>
+

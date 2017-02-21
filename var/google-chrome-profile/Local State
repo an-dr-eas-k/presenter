@@ -1,0 +1,59 @@
+{
+   "": "",
+   "HostReferralList": [ 2, [ "http://de.wikipedia.org/", [ "http://bits.wikimedia.org/", 11.559999999999997, "http://geoiplookup.wikimedia.org/", 0.16999999999999998, "http://upload.wikimedia.org/", 8.499999999999998 ] ], [ "http://dict.leo.org/", [ "http://googleads.g.doubleclick.net/", 0.33999999999999997, "http://pagead2.googlesyndication.com/", 0.33999999999999997 ] ], [ "http://en.wikipedia.org/", [ "http://bits.wikimedia.org/", 6.880395339199999, "http://upload.wikimedia.org/", 0.1290282048 ] ], [ "http://images.google.com/", [ "http://clients1.google.com/", 0.16999999999999998, "http://t0.gstatic.com/", 0.6799999999999999, "http://t1.gstatic.com/", 1.3599999999999997, "http://t2.gstatic.com/", 1.5299999999999996, "http://t3.gstatic.com/", 1.3599999999999997 ] ], [ "http://www.google.com/", [ "http://clients1.google.com/", 0.5262519999999999, "http://id.google.com/", 0.244052, "http://t0.gstatic.com/", 2.0702599999999993, "http://t1.gstatic.com/", 2.2183639999999993, "http://t2.gstatic.com/", 4.6286239999999985, "http://t3.gstatic.com/", 3.312415999999999, "https://clients1.google.com/", 0.414052 ] ], [ "http://www.google.de/", [ "http://clients1.google.de/", 0.6014467535999999 ] ], [ "http://www.wikipedia.org/", [ "http://bits.wikimedia.org/", 0.51, "http://meta.wikimedia.org/", 0.51, "http://upload.wikimedia.org/", 6.119999999999998 ] ] ],
+   "StartupDNSPrefetchList": [ 1, "http://bits.wikimedia.org/", "http://crl.geotrust.com/", "http://de.wikipedia.org/", "http://en.wikipedia.org/", "http://geoiplookup.wikimedia.org/", "http://meta.wikimedia.org/", "http://ocsp.thawte.com/", "http://upload.wikimedia.org/", "http://webclu.bio.wzw.tum.de/", "http://www.gstatic.com/" ],
+   "browser": {
+      "last_known_google_url": "http://www.google.de/",
+      "last_prompted_google_url": "http://www.google.de/",
+      "last_redirect_origin": "",
+      "window_placement": {
+         "bottom": 744,
+         "left": 0,
+         "maximized": false,
+         "right": 1024,
+         "top": 27,
+         "work_area_bottom": 768,
+         "work_area_left": 0,
+         "work_area_right": 1024,
+         "work_area_top": 27
+      }
+   },
+   "options_window": {
+      "last_tab_index": 2
+   },
+   "safe_browsing": {
+      "client_key": "DM5eEFhK1OOHD8GbxcG0DQ==",
+      "wrapped_key": "AKEgNivyyuUx4Q9wLttvBucGWfh3_hvqSabImuxRJAKiGNnm9Xaj0a7IjptzdpuLn60GJ7TJnCTeAsX9GLtBPE6AFpSZqu9JZg=="
+   },
+   "show-minimal-first-run-bubble": true,
+   "shutdown": {
+      "num_processes": 1,
+      "num_processes_slow": 1,
+      "type": 3
+   },
+   "uninstall_metrics": {
+      "installation_date2": "1288257426",
+      "launch_count": "13"
+   },
+   "user_experience_metrics": {
+      "session_id": 12,
+      "stability": {
+         "breakpad_registration_fail": 1,
+         "breakpad_registration_ok": 0,
+         "crash_count": 0,
+         "debugger_not_present": 1,
+         "debugger_present": 0,
+         "exited_cleanly": true,
+         "incomplete_session_end_count": 0,
+         "last_timestamp_sec": "1292506594",
+         "launch_count": 1,
+         "launch_time_sec": "1292506437",
+         "page_load_count": 0,
+         "renderer_crash_count": 0,
+         "renderer_hang_count": 0,
+         "session_end_completed": true,
+         "stats_buildtime": "1292117877",
+         "stats_version": "9.0.597.19-64"
+      }
+   }
+}

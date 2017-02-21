@@ -1,0 +1,5 @@
+#!/bin/bash
+
+vimrc=$(dirname ${0})/../etc/gvim/vimrc
+# echo $vimrc
+/usr/bin/gvim -f -S $vimrc "$@" 2>/dev/null

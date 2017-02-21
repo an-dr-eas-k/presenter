@@ -1,0 +1,21 @@
+#!/bin/sh
+
+# vncconfig -iconic &
+
+# Uncomment the following two lines for normal desktop:
+# unset SESSION_MANAGER
+# exec /etc/X11/xinit/xinitrc
+
+[ -x /etc/vnc/xstartup ] && exec /etc/vnc/xstartup
+[ -r $HOME/.Xresources ] && xrdb $HOME/.Xresources
+if [ "X${VNCDESKTOP}" == "Xpresentation" ]; then
+	export PATH=${bindir}:${PATH}
+	xsetroot -solid black
+	gnome-terminal --working-directory ${PRESENTATIONDIR} &
+	sleep 1
+	if [ -n "${PRESENTATIONFILE}" ]; then 
+		xpdf -fullscreen ${PRESENTATIONFILE} &
+	fi
+fi
+#xterm -geometry 80x24+10+10 -ls -title "$VNCDESKTOP Desktop" &
+fluxbox -rc ${configdir}/fluxbox/init &

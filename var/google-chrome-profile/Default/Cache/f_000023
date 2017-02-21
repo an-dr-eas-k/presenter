@@ -1,0 +1,671 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<title>Exakte Suche von Text in Texten (exact string matching)</title>
+<link rel="stylesheet" type="text/css" href="/binfo/manage_page_style.css" />
+
+</head>
+<body bgcolor="#ffffff" link="#000099" alink="#000099" vlink="#000099">
+
+
+
+
+
+
+<table cellpadding="0" cellspacing="0" width="100%" border="0">
+
+<tr>
+  <td bgcolor="#000000" rowspan="5" width="10%" valign="bottom" 
+   align="left">&nbsp;&nbsp;<img src="/binfo/p_/sp" 
+   width="2" height="1" alt="" />
+  </td>
+  <td bgcolor="#000000" colspan="40"><img 
+   src="/binfo/p_/sp" width="1" height="5" alt="" /></td>
+</tr>
+
+<tr>
+  <td bgcolor="#ffffff" rowspan="2" valign="top" 
+   align="left"><img src="/binfo/p_/ltab" width="5" 
+   height="5" alt="" /></td>
+  <td bgcolor="#ffffff"><img src="/binfo/p_/sp"
+   width="1" height="2" alt="" /></td>
+  <td bgcolor="#ffffff" rowspan="2" valign="top" 
+   align="right"><img src="/binfo/p_/rtab" width="5" 
+   height="5" alt="" /></td>
+  <td bgcolor="#000000" rowspan="4"><img src="/binfo/p_/sp"
+ width="2" height="1" alt="" /></td>
+  <td bgcolor="#efefef" rowspan="2" valign="top" 
+   align="left"><img src="/binfo/p_/ltab" width="5" 
+   height="5" alt="" /></td>
+  <td bgcolor="#efefef"><img src="/binfo/p_/sp"
+ width="1" height="2" alt="" /></td>
+  <td bgcolor="#efefef" rowspan="2" valign="top" 
+   align="right"><img src="/binfo/p_/rtab" width="5" 
+   height="5" alt="" /></td>
+  <td bgcolor="#000000" rowspan="4"><img src="/binfo/p_/sp"
+ width="2" height="1" alt="" /></td>
+  <td bgcolor="#efefef" rowspan="2" valign="top" 
+   align="left"><img src="/binfo/p_/ltab" width="5" 
+   height="5" alt="" /></td>
+  <td bgcolor="#efefef"><img src="/binfo/p_/sp"
+ width="1" height="2" alt="" /></td>
+  <td bgcolor="#efefef" rowspan="2" valign="top" 
+   align="right"><img src="/binfo/p_/rtab" width="5" 
+   height="5" alt="" /></td>
+  <td bgcolor="#000000" rowspan="4"><img src="/binfo/p_/sp"
+ width="2" height="1" alt="" /></td>
+  <td bgcolor="#efefef" rowspan="2" valign="top" 
+   align="left"><img src="/binfo/p_/ltab" width="5" 
+   height="5" alt="" /></td>
+  <td bgcolor="#efefef"><img src="/binfo/p_/sp"
+ width="1" height="2" alt="" /></td>
+  <td bgcolor="#efefef" rowspan="2" valign="top" 
+   align="right"><img src="/binfo/p_/rtab" width="5" 
+   height="5" alt="" /></td>
+  <td bgcolor="#000000" rowspan="4"><img src="/binfo/p_/sp"
+ width="2" height="1" alt="" /></td>
+  <td bgcolor="#efefef" rowspan="2" valign="top" 
+   align="left"><img src="/binfo/p_/ltab" width="5" 
+   height="5" alt="" /></td>
+  <td bgcolor="#efefef"><img src="/binfo/p_/sp"
+ width="1" height="2" alt="" /></td>
+  <td bgcolor="#efefef" rowspan="2" valign="top" 
+   align="right"><img src="/binfo/p_/rtab" width="5" 
+   height="5" alt="" /></td>
+  <td bgcolor="#000000" rowspan="4"><img src="/binfo/p_/sp"
+ width="2" height="1" alt="" /></td>
+  <td bgcolor="#efefef" rowspan="2" valign="top" 
+   align="left"><img src="/binfo/p_/ltab" width="5" 
+   height="5" alt="" /></td>
+  <td bgcolor="#efefef"><img src="/binfo/p_/sp"
+ width="1" height="2" alt="" /></td>
+  <td bgcolor="#efefef" rowspan="2" valign="top" 
+   align="right"><img src="/binfo/p_/rtab" width="5" 
+   height="5" alt="" /></td>
+  <td bgcolor="#000000" rowspan="4"><img src="/binfo/p_/sp"
+ width="2" height="1" alt="" /></td>
+  <td bgcolor="#efefef" rowspan="2" valign="top" 
+   align="left"><img src="/binfo/p_/ltab" width="5" 
+   height="5" alt="" /></td>
+  <td bgcolor="#efefef"><img src="/binfo/p_/sp"
+ width="1" height="2" alt="" /></td>
+  <td bgcolor="#efefef" rowspan="2" valign="top" 
+   align="right"><img src="/binfo/p_/rtab" width="5" 
+   height="5" alt="" /></td>
+  <td bgcolor="#000000" rowspan="4"><img src="/binfo/p_/sp"
+ width="2" height="1" alt="" /></td>
+  <td bgcolor="#efefef" rowspan="2" valign="top" 
+   align="left"><img src="/binfo/p_/ltab" width="5" 
+   height="5" alt="" /></td>
+  <td bgcolor="#efefef"><img src="/binfo/p_/sp"
+ width="1" height="2" alt="" /></td>
+  <td bgcolor="#efefef" rowspan="2" valign="top" 
+   align="right"><img src="/binfo/p_/rtab" width="5" 
+   height="5" alt="" /></td>
+  <td bgcolor="#000000" rowspan="4"><img src="/binfo/p_/sp"
+ width="2" height="1" alt="" /></td>
+  <td bgcolor="#efefef" rowspan="2" valign="top" 
+   align="left"><img src="/binfo/p_/ltab" width="5" 
+   height="5" alt="" /></td>
+  <td bgcolor="#efefef"><img src="/binfo/p_/sp"
+ width="1" height="2" alt="" /></td>
+  <td bgcolor="#efefef" rowspan="2" valign="top" 
+   align="right"><img src="/binfo/p_/rtab" width="5" 
+   height="5" alt="" /></td>
+  <td bgcolor="#000000" rowspan="4"><img src="/binfo/p_/sp"
+ width="2" height="1" alt="" /></td>
+  <td bgcolor="#efefef" rowspan="2" valign="top" 
+   align="left"><img src="/binfo/p_/ltab" width="5" 
+   height="5" alt="" /></td>
+  <td bgcolor="#efefef"><img src="/binfo/p_/sp"
+ width="1" height="2" alt="" /></td>
+  <td bgcolor="#efefef" rowspan="2" valign="top" 
+   align="right"><img src="/binfo/p_/rtab" width="5" 
+   height="5" alt="" /></td>
+  <td bgcolor="#000000" rowspan="4"><img src="/binfo/p_/sp"
+ width="2" height="1" alt="" /></td>
+</tr>
+<tr>
+  <td bgcolor="#ffffff" valign="bottom" class="tab-small" 
+   align="center"><font face="Verdana, Arial, Helvetica" 
+   size="1" color="#000000">&nbsp;<a href="manage_main"><span style="color: #000000;"><strong>Edit</strong></span></a>&nbsp;</font></td>
+  <td bgcolor="#efefef" valign="bottom" class="tab-small" 
+   align="center"><font face="Verdana, Arial, Helvetica" 
+   size="1" color="#000000">&nbsp;<a href="http://webclu.bio.wzw.tum.de/binfo/edu/tutorials/stringmatch/index_html"><span style="color: #000000;"><strong>View</strong></span></a>&nbsp;</font></td>
+  <td bgcolor="#efefef" valign="bottom" class="tab-small" 
+   align="center"><font face="Verdana, Arial, Helvetica" 
+   size="1" color="#000000">&nbsp;<a href="manage_propertiesForm"><span style="color: #000000;"><strong>Properties</strong></span></a>&nbsp;</font></td>
+  <td bgcolor="#efefef" valign="bottom" class="tab-small" 
+   align="center"><font face="Verdana, Arial, Helvetica" 
+   size="1" color="#000000">&nbsp;<a href="manage_proxyForm"><span style="color: #000000;"><strong>Proxy</strong></span></a>&nbsp;</font></td>
+  <td bgcolor="#efefef" valign="bottom" class="tab-small" 
+   align="center"><font face="Verdana, Arial, Helvetica" 
+   size="1" color="#000000">&nbsp;<a href="manage_change_history_page"><span style="color: #000000;"><strong>History</strong></span></a>&nbsp;</font></td>
+  <td bgcolor="#efefef" valign="bottom" class="tab-small" 
+   align="center"><font face="Verdana, Arial, Helvetica" 
+   size="1" color="#000000">&nbsp;<a href="manage_access"><span style="color: #000000;"><strong>Security</strong></span></a>&nbsp;</font></td>
+  <td bgcolor="#efefef" valign="bottom" class="tab-small" 
+   align="center"><font face="Verdana, Arial, Helvetica" 
+   size="1" color="#000000">&nbsp;<a href="manage_UndoForm"><span style="color: #000000;"><strong>Undo</strong></span></a>&nbsp;</font></td>
+  <td bgcolor="#efefef" valign="bottom" class="tab-small" 
+   align="center"><font face="Verdana, Arial, Helvetica" 
+   size="1" color="#000000">&nbsp;<a href="manage_owner"><span style="color: #000000;"><strong>Ownership</strong></span></a>&nbsp;</font></td>
+  <td bgcolor="#efefef" valign="bottom" class="tab-small" 
+   align="center"><font face="Verdana, Arial, Helvetica" 
+   size="1" color="#000000">&nbsp;<a href="manage_interfaces"><span style="color: #000000;"><strong>Interfaces</strong></span></a>&nbsp;</font></td>
+  <td bgcolor="#efefef" valign="bottom" class="tab-small" 
+   align="center"><font face="Verdana, Arial, Helvetica" 
+   size="1" color="#000000">&nbsp;<a href="ZCacheable_manage"><span style="color: #000000;"><strong>Cache</strong></span></a>&nbsp;</font></td>
+</tr>
+<tr>
+  <td colspan="3" bgcolor="#ffffff"><img src="/binfo/p_/sp"
+ width="2" height="1" alt="" /></td>
+  <td colspan="3" bgcolor="#efefef"><img src="/binfo/p_/sp"
+ width="2" height="1" alt="" /></td>
+  <td colspan="3" bgcolor="#efefef"><img src="/binfo/p_/sp"
+ width="2" height="1" alt="" /></td>
+  <td colspan="3" bgcolor="#efefef"><img src="/binfo/p_/sp"
+ width="2" height="1" alt="" /></td>
+  <td colspan="3" bgcolor="#efefef"><img src="/binfo/p_/sp"
+ width="2" height="1" alt="" /></td>
+  <td colspan="3" bgcolor="#efefef"><img src="/binfo/p_/sp"
+ width="2" height="1" alt="" /></td>
+  <td colspan="3" bgcolor="#efefef"><img src="/binfo/p_/sp"
+ width="2" height="1" alt="" /></td>
+  <td colspan="3" bgcolor="#efefef"><img src="/binfo/p_/sp"
+ width="2" height="1" alt="" /></td>
+  <td colspan="3" bgcolor="#efefef"><img src="/binfo/p_/sp"
+ width="2" height="1" alt="" /></td>
+  <td colspan="3" bgcolor="#efefef"><img src="/binfo/p_/sp"
+ width="2" height="1" alt="" /></td>
+</tr>
+<tr>
+  <td colspan="3" bgcolor="#ffffff"><img src="/binfo/p_/sp"
+ width="2" height="1" alt="" /></td>
+  <td colspan="3" bgcolor="#c0c0c0"><img src="/binfo/p_/sp"
+ width="2" height="1" alt="" /></td>
+  <td colspan="3" bgcolor="#c0c0c0"><img src="/binfo/p_/sp"
+ width="2" height="1" alt="" /></td>
+  <td colspan="3" bgcolor="#c0c0c0"><img src="/binfo/p_/sp"
+ width="2" height="1" alt="" /></td>
+  <td colspan="3" bgcolor="#c0c0c0"><img src="/binfo/p_/sp"
+ width="2" height="1" alt="" /></td>
+  <td colspan="3" bgcolor="#c0c0c0"><img src="/binfo/p_/sp"
+ width="2" height="1" alt="" /></td>
+  <td colspan="3" bgcolor="#c0c0c0"><img src="/binfo/p_/sp"
+ width="2" height="1" alt="" /></td>
+  <td colspan="3" bgcolor="#c0c0c0"><img src="/binfo/p_/sp"
+ width="2" height="1" alt="" /></td>
+  <td colspan="3" bgcolor="#c0c0c0"><img src="/binfo/p_/sp"
+ width="2" height="1" alt="" /></td>
+  <td colspan="3" bgcolor="#c0c0c0"><img src="/binfo/p_/sp"
+ width="2" height="1" alt="" /></td>
+</tr>
+</table>
+
+  <br />
+  <table width="100%" cellspacing="0" cellpadding="2" border="0">
+  <tr class="location-bar">
+    <td align="left" valign="top">
+    <div class="std-text">
+        <img src="/binfo/misc_/OFSP/dtmldoc.gif" 
+         alt="DTML Document" border="0" />
+        <strong>
+              DTML Document
+              at <a href="/binfo/manage_workspace">&nbsp;/</a><a href="/binfo/edu/manage_workspace">edu</a>/<a href="/binfo/edu/tutorials/manage_workspace">tutorials</a>/<a href="/binfo/edu/tutorials/stringmatch/manage_workspace">stringmatch</a>/<a class="strong-link" href="/binfo/edu/tutorials/stringmatch/index_html/manage_workspace">index_html</a>
+    </strong>
+                <a href="http://webclu.bio.wzw.tum.de/binfo/edu/tutorials/stringmatch/externalEdit_/index_html" title="Edit using external editor"><img src="/binfo/misc_/ExternalEditor/edit_icon" align="middle" hspace="2" border="0" alt="External Editor" /></a>
+            </div>
+    </td>
+          <td align="right" valign="top">
+  <div class="std-text">
+  <a href="http://webclu.bio.wzw.tum.de/binfo/HelpSys?help_url=/binfo/Control_Panel/Products/OFSP/Help/DTML-DocumentOrMethod_Edit.stx" onClick="window.open('http://webclu.bio.wzw.tum.de/binfo/HelpSys?help_url=/binfo/Control_Panel/Products/OFSP/Help/DTML-DocumentOrMethod_Edit.stx','zope_help','width=600,height=500,menubar=yes,toolbar=yes,scrollbars=yes,resizable=yes');return false;" onMouseOver="window.status='Open online help'; return true;" onMouseOut="window.status=''; return true;">Help!</a>
+  </div>
+  </td>
+          </tr>
+  </table>
+
+
+
+
+
+<p class="form-help">
+You may edit the source for this document using the form below. You 
+may also upload the source for this document from a local file. Click
+the <em>browse</em> button to select a local file to upload.
+</p>
+
+<form action="manage_edit" method="post">
+<table cellpadding="2" cellspacing="0" width="100%" border="0">
+
+<tr>
+  <td align="left" valign="top">
+  <div class="form-optional">
+  Title
+  </div>
+  </td>
+  <td align="left" valign="top">
+  <input type="text" name="title" size="40" value="Exakte Suche von Text in Texten (exact string matching)">
+  </td>
+</tr>
+
+<tr>
+  <td align="left" valign="top" colspan="2">
+            <textarea name="data:text" wrap="off" style="width: 100%;"
+                    rows="20">&lt;dtml-var standard_html_header&gt;
+
+&lt;h1&gt;Exakte Suche von Text in Texten (exact string matching)&lt;/h1&gt;
+
+&lt;h2&gt;Problemstellung&lt;/h2&gt;
+
+&lt;P&gt;Die Suche von Suchbegriffen (Mustern, patterns) in Texten erscheint im ersten Moment als triviales Problem.
+Man stelle sich folgende Herangehensweise vor:&lt;/P&gt;
+&lt;OL&gt;
+	&lt;LI&gt;&lt;P&gt;Positioniere das Muster am Beginn
+	des Textes&lt;/P&gt;
+	&lt;LI&gt;&lt;P&gt;Laufe durch alle Positionen des
+	Musters und vergleiche, ob das jeweilige Zeichen des Musters mit dem
+	des Textes &amp;uuml;bereinstimmt.&lt;/P&gt;
+	&lt;UL&gt;
+		&lt;LI&gt;&lt;P&gt;Wenn f&amp;uuml;r alle Zeichen des
+		Musters &amp;Uuml;bereinstimmung: Treffer!&lt;/P&gt;
+		&lt;LI&gt;&lt;P&gt;Wenn unvollst&amp;auml;ndige oder
+		keine &amp;Uuml;bereinstimmung: kein Treffer!&lt;/P&gt;
+	&lt;/UL&gt;
+	&lt;LI&gt;&lt;P&gt;R&amp;uuml;cke das Muster eine
+	Position weiter und gehe zu 2.&lt;/P&gt;
+&lt;/OL&gt;
+
+
+&lt;table bgcolor=&quot;#ebebeb&quot; cellpadding=10 cellspacing=10&gt;&lt;tr&gt;&lt;td&gt;
+&lt;P&gt;Beispiel: Suche nach allen Vorkommen des Startcodons ATG in einer DNA-Sequenz&lt;/P&gt;
+
+&lt;P&gt;Text: &lt;TT&gt;AGCAGCATGACGTACCGATTGAATATAGAGCGATGAGGA&lt;/TT&gt;&lt;br&gt;
+Muster: &lt;TT&gt;ATG&lt;/TT&gt;&lt;/P&gt;
+
+&lt;p&gt;1. Schritt: Anordnung des Musters am Beginn des Textes&lt;br&gt;
+&lt;TT&gt;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;AGC&lt;/FONT&gt;AGCATGACGTACCGATTGAATATAGAGCGATGAGGA&lt;/TT&gt;&lt;br&gt;
+&lt;TT&gt;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;ATG&lt;/FONT&gt;&lt;/TT&gt;&lt;/p&gt;
+
+&lt;P&gt;2. Schritt: Durchlaufen aller Positionen des Musters und Vergleich mit dem Text&lt;br&gt;
+&lt;TT&gt;&lt;FONT COLOR=&quot;#00ff00&quot;&gt;A&lt;/FONT&gt;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;GC&lt;/FONT&gt;AGCATGACGTACCGATTGAATATAGAGCGATGAGGA&lt;/TT&gt;&lt;br&gt;
+&lt;TT&gt;&lt;FONT COLOR=&quot;#00ff00&quot;&gt;A&lt;/FONT&gt;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;TG&lt;/FONT&gt;&lt;/TT&gt;&lt;br&gt;
+&lt;TT&gt;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;A&lt;/FONT&gt;&lt;FONT COLOR=&quot;#ff0000&quot;&gt;G&lt;/FONT&gt;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;C&lt;/FONT&gt;AGCATGACGTACCGATTGAATATAGAGCGATGAGGA&lt;/TT&gt;&lt;br&gt;
+&lt;TT&gt;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;A&lt;/FONT&gt;&lt;FONT COLOR=&quot;#ff0000&quot;&gt;T&lt;/FONT&gt;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;G&lt;/FONT&gt;&lt;/TT&gt;&lt;br&gt;
+&lt;TT&gt;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;AG&lt;/FONT&gt;&lt;FONT COLOR=&quot;#ff0000&quot;&gt;C&lt;/FONT&gt;AGCATGACGTACCGATTGAATATAGAGCGATGAGGA&lt;/TT&gt;&lt;br&gt;
+&lt;TT&gt;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;AT&lt;/FONT&gt;&lt;FONT COLOR=&quot;#ff0000&quot;&gt;G&lt;/FONT&gt;&lt;/TT&gt;&lt;br&gt;
+Resultat: 1 &amp;Uuml;bereinstimmung und 2 Unterschiede -&amp;gt; Kein Treffer!&lt;/P&gt;
+
+&lt;P&gt;3. Schritt: Eine Position weiterr&amp;uuml;cken und zur&amp;uuml;ck zu 2.&lt;br&gt;
+&lt;TT&gt;A&lt;FONT COLOR=&quot;#0000ff&quot;&gt;GCA&lt;/FONT&gt;GCATGACGTACCGATTGAATATAGAGCGATGAGGA&lt;/TT&gt;&lt;br&gt;
+&lt;TT&gt;&amp;nbsp;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;ATG&lt;/FONT&gt;&lt;/TT&gt;&lt;/p&gt;
+
+&lt;P&gt;...&lt;br&gt;
+viele Schritte sp&amp;auml;ter:&lt;br&gt;
+&lt;TT&gt;AGCAGC&lt;FONT COLOR=&quot;#00ff00&quot;&gt;A&lt;/FONT&gt;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;TG&lt;/FONT&gt;ACGTACCGATTGAATATAGAGCGATGAGGA&lt;/TT&gt;&lt;br&gt;
+&lt;TT&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;FONT COLOR=&quot;#00ff00&quot;&gt;A&lt;/FONT&gt;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;TG&lt;/FONT&gt;&lt;/TT&gt;&lt;br&gt;
+&lt;TT&gt;AGCAGC&lt;FONT COLOR=&quot;#0000ff&quot;&gt;A&lt;/FONT&gt;&lt;FONT COLOR=&quot;#00ff00&quot;&gt;T&lt;/FONT&gt;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;G&lt;/FONT&gt;ACGTACCGATTGAATATAGAGCGATGAGGA&lt;/TT&gt;&lt;br&gt;
+&lt;TT&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;A&lt;/FONT&gt;&lt;FONT COLOR=&quot;#00ff00&quot;&gt;T&lt;/FONT&gt;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;G&lt;/FONT&gt;&lt;/TT&gt;&lt;br&gt;
+&lt;TT&gt;AGCAGC&lt;FONT COLOR=&quot;#0000ff&quot;&gt;AT&lt;/FONT&gt;&lt;FONT COLOR=&quot;#00ff00&quot;&gt;G&lt;/FONT&gt;ACGTACCGATTGAATATAGAGCGATGAGGA&lt;/TT&gt;&lt;br&gt;
+&lt;TT&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;AT&lt;/FONT&gt;&lt;FONT COLOR=&quot;#00ff00&quot;&gt;G&lt;/FONT&gt;&lt;/TT&gt;&lt;br&gt;
+3 &amp;Uuml;bereinstimmungen -&amp;gt; Treffer!&lt;/P&gt;
+
+&lt;P&gt;...&lt;br&gt;
+viele Schritte sp&amp;auml;ter:&lt;br&gt;
+&lt;TT&gt;AGCAGCATGACGTACCGATTGAATATAGAGCG&lt;FONT COLOR=&quot;#00ff00&quot;&gt;A&lt;/FONT&gt;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;TG&lt;/FONT&gt;AGGA&lt;/TT&gt;&lt;br&gt;
+&lt;TT&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;FONT COLOR=&quot;#00ff00&quot;&gt;A&lt;/FONT&gt;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;TG&lt;/FONT&gt;&lt;/TT&gt;&lt;br&gt;
+&lt;TT&gt;AGCAGCATGACGTACCGATTGAATATAGAGCG&lt;FONT COLOR=&quot;#0000ff&quot;&gt;A&lt;/FONT&gt;&lt;FONT COLOR=&quot;#00ff00&quot;&gt;T&lt;/FONT&gt;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;G&lt;/FONT&gt;AGGA&lt;/TT&gt;&lt;br&gt;
+&lt;TT&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;A&lt;/FONT&gt;&lt;FONT COLOR=&quot;#00ff00&quot;&gt;T&lt;/FONT&gt;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;G&lt;/FONT&gt;&lt;/TT&gt;&lt;br&gt;
+&lt;TT&gt;AGCAGCATGACGTACCGATTGAATATAGAGCG&lt;FONT COLOR=&quot;#0000ff&quot;&gt;AT&lt;/FONT&gt;&lt;FONT COLOR=&quot;#00ff00&quot;&gt;G&lt;/FONT&gt;AGGA&lt;/TT&gt;&lt;br&gt;
+&lt;TT&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;AT&lt;/FONT&gt;&lt;FONT COLOR=&quot;#00ff00&quot;&gt;G&lt;/FONT&gt;&lt;/TT&gt;&lt;br&gt;
+3 &amp;Uuml;bereinstimmungen -&amp;gt; Treffer!&lt;/P&gt;
+
+&lt;P&gt;...&lt;br&gt;
+viele Schritte sp&amp;auml;ter:&lt;br&gt;
+&lt;TT&gt;AGCAGCATGACGTACCGATTGAATATAGAGCGATGA&lt;FONT COLOR=&quot;#0000ff&quot;&gt;GG&lt;/FONT&gt;&lt;FONT COLOR=&quot;#ff0000&quot;&gt;A&lt;/FONT&gt;&lt;/TT&gt;&lt;br&gt;
+&lt;TT&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;AT&lt;/FONT&gt;&lt;FONT COLOR=&quot;#ff0000&quot;&gt;G&lt;/FONT&gt;&lt;/TT&gt;&lt;br&gt;
+Suche abgeschlossen.&lt;/P&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;P&gt;Diese Vorgehensweise nennt man
+trivialen Algorithmus f&amp;uuml;r das exakte string matching (mitunter
+auch wegen des Durchprobierens aller M&amp;ouml;glichkeiten 'brute
+force'). Man ben&amp;ouml;tigt f&amp;uuml;r das Auffinden aller
+&amp;Uuml;bereinstimmungen m*(n-m) Vergleichsoperationen (m ist die L&amp;auml;nge
+des Musters, n die L&amp;auml;nge des Textes).&lt;/P&gt;
+&lt;P&gt;Bei langen Texten f&amp;uuml;hrt dieser
+Aufwand zu inakzeptablen Rechenzeiten und der Einsatz effizienterer
+Algorithmen wird lohnenswert. Erstaunlich sp&amp;auml;t, erst 1974,
+erschien ein Algorithmus, der im schlechtesten Fall n Vergleiche
+ben&amp;ouml;tigt. Der Algorithmus von Knuth, Morris und Pratt [KMP]
+nutzt hierbei die Information &amp;uuml;ber die Struktur des Musters aus,
+um unn&amp;ouml;tige Mehrfachvergleiche zu vermeiden. Aho und Corasick
+verallgemeinerten diesen Ansatz f&amp;uuml;r die gleichzeitige Suche nach
+mehreren Mustern [AC, 1975]. Aufsehen erregte 1977 die Idee von Boyer
+und Moore, das Muster von rechts nach links zu vergleichen und au&amp;szlig;er
+der Struktur des Musters auch die vorkommenden Symbole zu
+ber&amp;uuml;cksichtigen. Das Ergebnis ist ein sublinearer Algorithmus,
+der im Durchschnitt lediglich n/m Vergleiche ben&amp;ouml;tigt [BM].
+Dieser Algorithmus soll im folgenden detailliert vorgestellt werden.&lt;/P&gt;
+
+&lt;h2&gt;Idee des Boyer-Moore-Algorithmus&lt;/h2&gt;
+
+&lt;P&gt;Der Boyer-Moore-Algorithmus vergleicht
+das Muster von rechts nach links mit dem Text. Ist bereits das erste
+verglichene Textsymbol ein Symbol, das im Muster &amp;uuml;berhaupt nicht
+vorkommt, so kann das Muster um m Positionen hinter dieses Symbol
+weitergeschoben werden.&lt;/p&gt;
+
+&lt;table bgcolor=&quot;#ebebeb&quot; cellpadding=10 cellspacing=10&gt;&lt;tr&gt;&lt;td&gt;
+&lt;p&gt;Im obigen Beispiel bedeutet dies:&lt;/P&gt;
+
+&lt;P&gt;1. Schritt&lt;br&gt;
+&lt;TT&gt;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;AG&lt;/FONT&gt;&lt;FONT COLOR=&quot;#ff0000&quot;&gt;C&lt;/FONT&gt;AGCATGACGTACCGATTGAATATAGAGCGATGAGGA&lt;/TT&gt;&lt;br&gt;
+&lt;TT&gt;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;AT&lt;/FONT&gt;&lt;FONT COLOR=&quot;#ff0000&quot;&gt;G&lt;/FONT&gt;&lt;/TT&gt;&lt;br&gt;
+Mismatch: C kommt im Muster nicht vor -&amp;gt; Muster um seine L&amp;auml;nge m=3 weiterr&amp;uuml;cken!&lt;/P&gt;
+
+&lt;P&gt;2. Schritt&lt;br&gt;
+&lt;TT&gt;AGC&lt;FONT COLOR=&quot;#0000ff&quot;&gt;AG&lt;/FONT&gt;&lt;FONT COLOR=&quot;#ff0000&quot;&gt;C&lt;/FONT&gt;ATGACGTACCGATTGAATATAGAGCGATGAGGA&lt;/TT&gt;&lt;br&gt;
+&lt;TT&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;AT&lt;/FONT&gt;&lt;FONT COLOR=&quot;#ff0000&quot;&gt;G&lt;/FONT&gt;&lt;/TT&gt;&lt;br&gt;
+Mismatch: C kommt im Muster nicht vor -&amp;gt; Muster um seine L&amp;auml;nge m=3 weiterr&amp;uuml;cken!&lt;/P&gt;
+
+&lt;P&gt;3. Schritt&lt;br&gt;
+&lt;TT&gt;AGCAGC&lt;FONT COLOR=&quot;#0000ff&quot;&gt;AT&lt;/FONT&gt;&lt;FONT COLOR=&quot;#00ff00&quot;&gt;G&lt;/FONT&gt;ACGTACCGATTGAATATAGAGCGATGAGGA&lt;/TT&gt;&lt;br&gt;
+&lt;TT&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;AT&lt;/FONT&gt;&lt;FONT COLOR=&quot;#00ff00&quot;&gt;G&lt;/FONT&gt;&lt;/TT&gt;&lt;br&gt;
+Kein Mismatch: Strategie &amp;auml;ndern!&lt;/P&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;P&gt;Der g&amp;uuml;nstigste Fall f&amp;uuml;r den Boyer-Moore-Algorithmus tritt also
+ein, wenn jedesmal beim ersten Vergleich ein Textsymbol gefunden
+wird, das im Muster nicht vorkommt. Dann ben&amp;ouml;tigt der
+Algorithmus nur n/m Vergleiche.&lt;/P&gt;
+
+&lt;P&gt;Die eben beschriebene Vorgehensweise wird als &amp;quot;Schlechtes
+Zeichen&amp;quot;-Strategie (bad character heuristics) bezeichnet. Sie
+kann auch angewendet werden, wenn das gefundene Zeichen zwar schlecht
+ist, also zu einem Mismatch f&amp;uuml;hrt, aber an anderer Stelle im
+Muster vorkommt. Dann allerdings kann das Muster nur so weit
+geschoben werden, bis dieses Vorkommen auf das Textsymbol
+ausgerichtet ist.&lt;/P&gt;
+
+&lt;table bgcolor=&quot;#ebebeb&quot; cellpadding=10 cellspacing=10&gt;&lt;tr&gt;&lt;td&gt;
+&lt;p&gt;Im obigen Beispiel:&lt;/P&gt;
+
+&lt;P&gt;...&lt;br&gt;
+&lt;TT&gt;AGCAGCATGACGTAC&lt;FONT COLOR=&quot;#0000ff&quot;&gt;CG&lt;/FONT&gt;&lt;FONT COLOR=&quot;#ff0000&quot;&gt;A&lt;/FONT&gt;TTGAATATAGAGCGATGAGGA&lt;/TT&gt;&lt;br&gt;
+&lt;TT&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;AT&lt;/FONT&gt;&lt;FONT COLOR=&quot;#ff0000&quot;&gt;G&lt;/FONT&gt;&lt;/TT&gt;&lt;br&gt;
+Mismatch: A kommt im Muster erst sp&amp;auml;ter -&amp;gt; Muster um die Distanz zu A weiterr&amp;uuml;cken!&lt;/P&gt;
+
+&lt;P&gt;N&amp;auml;chster Schritt&lt;br&gt;
+&lt;TT&gt;AGCAGCATGACGTACCG&lt;FONT COLOR=&quot;#0000ff&quot;&gt;ATT&lt;/FONT&gt;GAATATAGAGCGATGAGGA&lt;/TT&gt;&lt;br&gt;
+&lt;TT&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;ATG&lt;/FONT&gt;&lt;/TT&gt;&lt;br&gt;
+Vergleich wieder von rechts an beginnen!&lt;/P&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;P&gt;Zu dieser Vorgehensweise gibt es eine Alternative: die &amp;quot;Gutes
+Ende&amp;quot;-Strategie (good suffix heuristics). Sie nutzt das Wissen
+um die gefundene Teil&amp;uuml;bereinstimmung von Text und Muster
+effektiv aus. Dabei wird gepr&amp;uuml;ft, ob das mit dem Text
+&amp;uuml;bereinstimmende Ende des Musters (suffix) noch einmal im Muster
+vorkommt. Wenn nicht, kann das Muster komplett um seine eigene L&amp;auml;nge
+m weitergeschoben werden. Anderenfalls wird das Muster um die Distanz
+bis zum n&amp;auml;chsten Auftreten des suffix im Muster weitergeschoben.&lt;/P&gt;
+
+&lt;table bgcolor=&quot;#ebebeb&quot; cellpadding=10 cellspacing=10&gt;&lt;tr&gt;&lt;td&gt;
+&lt;P&gt;In unserem Beispiel bedeutet dies z.B.:&lt;/P&gt;
+
+&lt;P&gt;...&lt;br&gt;
+&lt;TT&gt;AGCAGCATGACGTACCGAATTGAATA&lt;FONT COLOR=&quot;#0000ff&quot;&gt;T&lt;/FONT&gt;&lt;FONT COLOR=&quot;#ff0000&quot;&gt;A&lt;/FONT&gt;&lt;FONT COLOR=&quot;#00ff00&quot;&gt;G&lt;/FONT&gt;AGCGATGAGGA&lt;/TT&gt;&lt;br&gt;
+&lt;TT&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;A&lt;/FONT&gt;&lt;FONT COLOR=&quot;#ff0000&quot;&gt;T&lt;/FONT&gt;&lt;FONT COLOR=&quot;#00ff00&quot;&gt;G&lt;/FONT&gt;&lt;/TT&gt;&lt;br&gt;
+Mismatch: A im Text und T im Muster passen nicht, aber das suffix G taucht im Muster nicht mehr auf -&amp;gt; Muster um seine L&amp;auml;nge m weiterr&amp;uuml;cken!&lt;/P&gt;
+
+&lt;P&gt;N&amp;auml;chster Schritt:&lt;br&gt;
+&lt;TT&gt;AGCAGCATGACGTACCGAATTGAATATAG&lt;FONT COLOR=&quot;#0000ff&quot;&gt;AGC&lt;/FONT&gt;GATGAGGA&lt;/TT&gt;&lt;br&gt;
+&lt;TT&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;ATG&lt;/FONT&gt;&lt;/TT&gt;&lt;br&gt;
+&lt;/p&gt;
+
+&lt;P&gt;Zum Vergleich: Die bad character heuristics h&amp;auml;tte hier nur bis zum n&amp;auml;chsten Auftreten von A im Muster, also um 1 Zeichen weitergeschoben:&lt;br&gt;
+&lt;TT&gt;AGCAGCATGACGTACCGAATTGAATAT&lt;FONT COLOR=&quot;#0000ff&quot;&gt;AGA&lt;/FONT&gt;GCGATGAGGA&lt;/TT&gt;&lt;br&gt;
+&lt;TT&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;FONT COLOR=&quot;#0000ff&quot;&gt;ATG&lt;/FONT&gt;&lt;/TT&gt;&lt;br&gt;
+&lt;/p&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;P&gt;Bei der Ausf&amp;uuml;hrung des Boyer-Moore-Algorithmus werden nun bei jedem
+Mismatch die Verschiebungen der beiden unterschiedlichen Strategien
+errechnet. Anschlie&amp;szlig;end wird das Muster um die gr&amp;ouml;&amp;szlig;ere
+der beiden Distanzen verschoben. Danach wird der Vergleich zwischen
+Text und Muster wieder neu von rechts aus begonnen.&lt;/P&gt;
+
+&lt;P&gt;Nach einer kompletten &amp;Uuml;bereinstimmung (Treffer) wird die
+Verschiebedistanz anhand der &amp;quot;Gutes Ende&amp;quot;-Strategie
+bestimmt, siehe unten.&lt;/P&gt;
+
+&lt;P&gt;Um den Boyer-Moore-Algorithmus effizient ausf&amp;uuml;hren zu k&amp;ouml;nnen,
+werden vor Beginn f&amp;uuml;r beide Strategien Text und Muster
+analysiert und die Ergebnisse als Tabellen abgelegt. Dies hat den
+Vorteil, dass w&amp;auml;hrend der Durchf&amp;uuml;hrung Berechnungen nicht
+unn&amp;ouml;tig wiederholt werden m&amp;uuml;ssen.&lt;/P&gt;
+
+&lt;h2&gt;Occurrance-Funktion f&amp;uuml;r die &amp;quot;Schlechtes Zeichen&amp;quot;-Strategie&lt;/h2&gt;
+
+&lt;P&gt;Da bei der &amp;quot;Schlechtes Zeichen&amp;quot;-Strategie das Auftreten eines
+Zeichens aus dem Text im Muster wesentlich ist, wird eine
+occurance-Funktion occ() f&amp;uuml;r das Alphabet des Textes &amp;uuml;ber
+das Muster berechnet. Der Funktionswert ist f&amp;uuml;r alle Zeichen des
+Text-Alphabets der Index des letzten Auftretens dieses Zeichens im
+Muster bzw. -1 falls das Zeichen im Muster nicht vorkommt.&lt;/P&gt;
+
+&lt;P&gt;Achtung: Der Index wird in den meisten F&amp;auml;llen mit 0 beginnend gez&amp;auml;hlt!&lt;/P&gt;
+
+&lt;table bgcolor=&quot;#ebebeb&quot; cellpadding=10 cellspacing=10&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;P&gt;F&amp;uuml;r unser obiges Beispiel ergibt sich occ() wie folgt:&lt;/p&gt;
+
+&lt;p&gt;Umgang des Text-Alphabets: {'A'; 'C'; 'G'; 'T'}&lt;/p&gt;
+&lt;p&gt;
+occ('ATG','A')=0, da A zuletzt als erstes Zeichen in ATG vorkommt -&amp;gt; Index 0&lt;br&gt;
+occ('ATG','C')=-1, da C gar nicht in ATG vorkommt&lt;br&gt;
+occ('ATG','G')=2, da G zuletzt als drittes Zeichen in ATG vorkommt -&amp;gt; Index 2&lt;br&gt;
+occ('ATG','T')=1, da T zuletzt als zweites Zeichen in ATG vorkommt -&amp;gt; Index 1&lt;/p&gt;
+
+&lt;P&gt;Oft wird occ() als Tabelle geschrieben:&lt;/P&gt;
+&lt;table border=1 cellpadding=5&gt;
+ &lt;tr&gt;
+  &lt;td align=right&gt;&lt;p&gt;a&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;p&gt;A&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;p&gt;C&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;p&gt;G&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;p&gt;T&lt;/p&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td align=right&gt;&lt;p&gt;occ(pattern, a)&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;p&gt;0&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;p&gt;-1&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;p&gt;2&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;p&gt;1&lt;/p&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;h2&gt;Shifting-Funktion f&amp;uuml;r die &amp;quot;Gutes Ende&amp;quot;-Strategie&lt;/h2&gt;
+
+&lt;P&gt;F&amp;uuml;r die &amp;quot;Gutes Ende&amp;quot;-Strategie wird ein Array shift()
+berechnet, das f&amp;uuml;r jeden Index i angibt, um wieviel das Muster
+geschoben werden kann, wenn ein Mismatch an Position i-1 auftritt,
+d.h. wenn das an Position i beginnende Suffix &amp;uuml;bereingestimmt
+hat. Berechnet wird shift() von i=0 (Musteranfang) bis i=m (Position
+rechts neben dem Musterende).&lt;/P&gt;
+
+&lt;P&gt;Nach einer kompletten &amp;Uuml;bereinstimmung (i=0) ist die Verschiebedistanz
+ die Differenz aus L&amp;auml;nge und &amp;ldquo;Randbreite&amp;rdquo; des
+Musters (unter Rand versteht man gleiche Zeichenketten am Beginn und
+Ende des Musters, die k&amp;uuml;rzer als das Muster sind &amp;ndash; z.B.
+sind die Zeichen &amp;ldquo;um&amp;rdquo; im Muster &amp;ldquo;um die Ecke herum&amp;rdquo;
+der l&amp;auml;ngste und neben der immer randbildenden leeren
+Zeichenfolge auch einzige Rand).&lt;/P&gt;
+
+&lt;P&gt;Die exakte Berechnung von shift() ist nicht besonders einfach, da jeweils
+suffix und Gesamtmuster analysiert werden m&amp;uuml;ssen. Bei kurzen
+Mustern ist die Situation aber noch &amp;uuml;berschaubar.&lt;/P&gt;
+
+&lt;table bgcolor=&quot;#ebebeb&quot; cellpadding=10 cellspacing=10&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;P&gt;F&amp;uuml;r unser obiges Beispiel ergibt sich shift() wie folgt:&lt;/P&gt;
+
+&lt;P&gt;Muster: 'ATG', wir bilden shift() von rechts aus,&lt;/P&gt;
+
+&lt;P&gt;
+shift('ATG',3)=1, per Definition, da das &amp;uuml;bereinstimmende Suffix die leere
+Zeichenfolge ist,&lt;br&gt;
+shift('ATG',2)=3, da das passende Suffix 'G' kein weiteres Mal in 'ATG' vorkommt -&amp;gt;
+Muster hinter 'G' schieben,&lt;br&gt;
+shift('ATG',1)=3, da das passende Suffix 'TG' kein weiteres Mal in 'ATG' vorkommt -&amp;gt;
+Muster hinter 'TG' schieben,&lt;br&gt;
+shift('ATG',0)=3, da i=0 (Treffer) und der l&amp;auml;ngste Rand die L&amp;auml;nge 0 hat -&amp;gt;
+Muster um dessen gesamte L&amp;auml;nge schieben.
+&lt;/P&gt;
+
+&lt;P&gt;Als Tabelle geschrieben lautet shift():&lt;/P&gt;
+
+
+&lt;table border=1 cellpadding=5&gt;
+ &lt;tr&gt;
+  &lt;td align=right&gt;&lt;p&gt;pattern&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;p&gt;A&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;p&gt;T&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;p&gt;G&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td align=right&gt;&lt;p&gt;i&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;p&gt;0&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;p&gt;1&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;p&gt;2&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;p&gt;3&lt;/p&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td align=right&gt;&lt;p&gt;shift(pattern, i)&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;p&gt;3&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;p&gt;3&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;p&gt;3&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;p&gt;1&lt;/p&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;P&gt;Der Suchalgorithmus vergleicht die Symbole des Musters von rechts nach
+links mit dem Text. Bei vollst&amp;auml;ndiger &amp;Uuml;bereinstimmung wird
+das Muster anschlie&amp;szlig;end so weit geschoben, wie es sein Rand
+zul&amp;auml;sst (der shift-Funktion mit i=0 zu entnehmen). Nach einem
+Mismatch wird das Muster um das Maximum der Werte geschoben, die sich
+aus der &amp;quot;Gutes-Ende&amp;quot;- und der &amp;quot;Schlechtes
+Zeichen&amp;quot;-Strategie ergeben:&lt;/P&gt;
+
+&lt;pre&gt;
+boyermoorealgorithm(text, pattern)
+
+   n = len(text)
+   m = len(pattern)
+   i = 0
+   j = 0
+
+   # von Textanfang bis Textende
+   while i &amp;lt;= n-m:
+
+       # Vergleiche pattern von rechts nach links
+       j = m-1
+       while j&amp;gt;=0 and pattern[j]==text[i+j]:
+           j = j-1
+
+       # Wenn kompletter Treffer:
+       if j&amp;lt;0:
+           report(i)
+           # Verschiebe pattern um Differenz L&amp;auml;nge-Randbreite
+           i = i+shift(pattern,0)
+
+       # Wenn Abbruch wegen Mismatch
+       else:
+           # Verschiebe pattern um h&amp;ouml;chsten Wert der beiden Strategien
+           i = i + max(
+                   shift(pattern, j+1),
+                   j-occ(pattern, text[i+j])
+                   )
+&lt;/pre&gt;
+
+
+&lt;h2&gt;Literatur&lt;/h2&gt;
+
+&lt;P&gt;
+[AC] A.V. Aho, M.J. Corasick: Efficient String Matching: An Aid to Bibliographic Search. Communications of
+the ACM 18, 6, 333-340 (1975)&lt;br&gt;
+
+[BM] R.S. Boyer, J.S. Moore: A Fast String Searching Algorithm. Communications of the ACM 20, 10, 762-772
+(1977)&lt;br&gt;
+
+[KMP]D.E. Knuth, J.H. Morris, V.R.  Pratt: Fast Pattern Matching in Strings. SIAM Journal of Computing 6,
+2, 323-350 (1977)&lt;br&gt;
+
+&lt;i&gt;Der Algorithmus [KMP] erschien 1974 als Institutsbericht und erst 1977 in einer Fachzeitschrift.&lt;/i&gt;
+&lt;/P&gt;
+
+&lt;P&gt;Weiterf&amp;uuml;hrende Informationen:&lt;/P&gt;
+&lt;P&gt;&lt;a href=&quot;http://www-igm.univ-mlv.fr/~lecroq/string/&quot; target=&quot;_top&quot;&gt;http://www-igm.univ-mlv.fr/~lecroq/string/&lt;/a&gt;
+(auch als &lt;a href=&quot;http://www-igm.univ-mlv.fr/~lecroq/string/string.pdf&quot;&gt;PDF&lt;/a&gt;)&lt;/P&gt;
+
+&lt;dtml-var standard_html_footer&gt;</textarea>      
+    </td>
+</tr>
+
+<tr>
+  <td align="left" valign="top" colspan="2">
+  <div class="form-element">
+     <input class="form-element" type="submit" name="SUBMIT" value="Save Changes">
+    &nbsp;&nbsp;
+  <input class="form-element" type="submit" name="SUBMIT" value="Taller">
+  <input class="form-element" type="submit" name="SUBMIT" value="Shorter">
+  <input class="form-element" type="submit" name="SUBMIT" value="Wider">
+  <input class="form-element" type="submit" name="SUBMIT" value="Narrower">
+  </div>
+  </td>
+</tr>
+</table>
+</form>
+
+<form action="manage_upload" method="post" enctype="multipart/form-data">
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+  <td align="left" valign="top">
+  <div class="form-label">
+  File &nbsp;
+  </div>
+  </td>
+  <td align="left" valign="top">
+  <input type="file" name="file" size="25" value="">
+  </td>
+</tr>
+<tr>
+  <td></td>
+  <td align="left" valign="top">
+  <div class="form-element">
+     <input class="form-element" type="submit" value="Upload File">
+    </div>
+  </td>
+</tr>
+</table>
+</form>
+
+</body>
+</html>
+
+
+
+
+
+
+
+

@@ -1,0 +1,2092 @@
+
+
+
+<!DOCTYPE html PUBLIC
+  "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de"
+      lang="de">
+
+  
+    
+    
+    
+    
+    
+
+  
+
+  <head>
+
+    <meta http-equiv="Content-Type"
+          content="text/html;charset=utf-8" />
+
+    
+      <base href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/" /><!--[if lt IE 7]></base><![endif]-->
+    
+
+    <meta name="generator" content="Plone - http://plone.org" />
+
+    <link rel="kss-base-url" href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien" />
+
+  
+  
+    
+      <script type="text/javascript"
+              src="http://webclu.bio.wzw.tum.de/binfo/portal_javascripts/Plone%20Default/jquery-cachekey9948.js">
+      </script>
+    
+    
+  
+
+  
+    
+      <script type="text/javascript"
+              src="http://webclu.bio.wzw.tum.de/binfo/portal_javascripts/Plone%20Default/dropdown-cachekey7680.js">
+      </script>
+    
+    
+  
+
+  
+    
+      <script type="text/javascript"
+              src="http://webclu.bio.wzw.tum.de/binfo/portal_javascripts/Plone%20Default/ie5fixes-cachekey5712.js">
+      </script>
+    
+    
+  
+
+  
+    
+      <script type="text/javascript"
+              src="http://webclu.bio.wzw.tum.de/binfo/portal_javascripts/Plone%20Default/sarissa-cachekey6130.js">
+      </script>
+    
+    
+  
+
+  
+    
+      <script type="text/javascript"
+              src="http://webclu.bio.wzw.tum.de/binfo/portal_javascripts/Plone%20Default/resourcebase2-dom-fp-cachekey1155.js">
+      </script>
+    
+    
+  
+
+  
+    
+      <script type="text/javascript"
+              src="http://webclu.bio.wzw.tum.de/binfo/portal_javascripts/Plone%20Default/resourcekukit-cachekey0348.js">
+      </script>
+    
+    
+  
+
+  
+    
+      <script type="text/javascript"
+              src="http://webclu.bio.wzw.tum.de/binfo/portal_javascripts/Plone%20Default/input-label-cachekey9741.js">
+      </script>
+    
+    
+  
+
+  
+  
+    
+    
+      <style type="text/css" media="screen"><!-- @import url(http://webclu.bio.wzw.tum.de/binfo/portal_css/Plone%20Default/member-cachekey5331.css); --></style>
+    
+    
+  
+
+  
+    
+    
+      <style type="text/css"><!-- @import url(http://webclu.bio.wzw.tum.de/binfo/portal_css/Plone%20Default/base-cachekey1898.css); --></style>
+    
+    
+  
+
+  
+    
+    
+      <style type="text/css" media="all"><!-- @import url(http://webclu.bio.wzw.tum.de/binfo/portal_css/Plone%20Default/survey_results-cachekey2224.css); --></style>
+    
+    
+  
+
+  
+    
+    
+      <style type="text/css" media="all"><!-- @import url(http://webclu.bio.wzw.tum.de/binfo/portal_css/Plone%20Default/ploneCustom-cachekey6260.css); --></style>
+    
+    
+  
+
+  
+  <link rel="kinetic-stylesheet" type="text/css"
+        href="http://webclu.bio.wzw.tum.de/binfo/portal_kss/Plone%20Default/at-cachekey3337.kss" />
+
+
+<title>Folien &mdash; TUM-Genome Oriented Bioinformatics</title>
+
+
+    <!-- Internet Explorer Fixes -->
+    <!--[if IE]>
+        <style type="text/css" media="all">@import url(http://webclu.bio.wzw.tum.de/binfo/IEFixes.css);</style>
+        
+        <script type="text/javascript"
+                src="http://webclu.bio.wzw.tum.de/binfo/iefixes.js">
+        </script>
+        
+    <![endif]-->
+
+    
+    <link rel="author"
+          href="http://webclu.bio.wzw.tum.de/binfo/author/pagel"
+          title="Autoreninformation" />
+
+
+
+    <link rel="shortcut icon" type="image/x-icon"
+          href="http://webclu.bio.wzw.tum.de/binfo/favicon.ico" />
+
+
+
+    <link rel="home"
+          href="http://webclu.bio.wzw.tum.de/binfo"
+          title="Startseite" />
+
+    <link rel="contents"
+          href="http://webclu.bio.wzw.tum.de/binfo/sitemap"
+          title="Übersicht" />
+
+
+
+
+
+
+    <link rel="search"
+          href="http://webclu.bio.wzw.tum.de/binfo/search_form"
+          title="Search this site" />
+
+
+
+    <!-- Disable IE6 image toolbar -->
+    <meta http-equiv="imagetoolbar" content="no" />
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+  </head>
+
+  <body class="section-edu template-folder_listing"
+        dir="ltr">
+    <div id="visual-portal-wrapper">
+
+      <div id="portal-top">
+        <div id="portal-header">
+<p class="hiddenStructure">
+  <a accesskey="2"
+     href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien#documentContent">Direkt zum Inhalt</a> |
+
+  <a accesskey="6"
+     href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien#portlet-navigation-tree">Direkt zur Navigation</a>
+</p>
+
+<ul id="portal-siteactions">
+
+    <li id="siteaction-sitemap"><a
+    href="http://webclu.bio.wzw.tum.de/binfo/sitemap"
+    accesskey="3" title="Übersicht">Übersicht</a></li>
+    <li id="siteaction-accessibility"><a
+    href="http://webclu.bio.wzw.tum.de/binfo/accessibility-info"
+    accesskey="0" title="Barrierefreiheit">Barrierefreiheit</a></li>
+    <li id="siteaction-contact"><a
+    href="http://webclu.bio.wzw.tum.de/binfo/contact-info"
+    accesskey="9" title="Kontakt">Kontakt</a></li>
+    <li id="siteaction-plone_setup"><a
+    href="http://webclu.bio.wzw.tum.de/binfo/plone_control_panel"
+    accesskey="" title="Konfiguration">Konfiguration</a></li>
+
+</ul>
+
+<div id="portal-searchbox">
+    <form name="searchform"
+          action="http://webclu.bio.wzw.tum.de/binfo/search">
+
+        <label for="searchGadget" class="hiddenStructure">Website durchsuchen</label>
+
+        <div class="LSBox">
+        <input name="SearchableText" type="text" size="18"
+               title="Website durchsuchen" accesskey="4"
+               class="inputLabel" id="searchGadget" />
+
+        <input class="searchButton" type="submit"
+               value="Suche" />
+    
+        <div class="searchSection">
+            <input id="searchbox_currentfolder_only"
+                   class="noborder" type="checkbox"
+                   name="path"
+                   value="/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien" />
+            <label for="searchbox_currentfolder_only"
+                   style="cursor: pointer">nur im aktuellen Bereich</label>
+        </div>
+
+        <div class="LSResult" id="LSResult" style=""><div class="LSShadow" id="LSShadow"></div></div>
+        </div>
+    </form>
+
+    <div id="portal-advanced-search" class="hiddenStructure">
+        <a href="http://webclu.bio.wzw.tum.de/binfo/search_form"
+           accesskey="5">Erweiterte Suche…</a>
+    </div>
+
+</div>
+
+<a id="portal-logo" accesskey="1"
+   href="http://webclu.bio.wzw.tum.de/binfo">
+    <img src="http://webclu.bio.wzw.tum.de/binfo/logo.jpg" alt="" title="" height="75" width="823" /></a>
+
+
+</div>
+
+<div id="portal-personaltools-wrapper">
+
+<h5 class="hiddenStructure">Benutzerspezifische Werkzeuge</h5>
+
+<ul id="portal-personaltools" class="visualInline">
+   
+       <li><a id="user-name"
+              href="http://webclu.bio.wzw.tum.de/binfo/dashboard"><img src="http://webclu.bio.wzw.tum.de/binfo/user.gif" alt="" title="User" height="16" width="16" />
+            <span class="visualCaseSensitive">Andreas Kirschner</span></a></li>
+   
+
+    
+        <li>
+            <a href="http://webclu.bio.wzw.tum.de/binfo/plone_memberprefs_panel">Meine Einstellungen</a>
+        </li>
+    
+    
+        <li>
+            <a href="http://webclu.bio.wzw.tum.de/binfo/logout">Abmelden</a>
+        </li>
+    
+
+</ul>
+</div>
+
+
+    <ul id="portal-languageselector">
+        
+        <li class="currentLanguage">
+                <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien?set_language=de"
+                   title="German">
+                    
+                        <img width="14" height="11" alt=""
+                             src="http://webclu.bio.wzw.tum.de/binfo/++resource++country-flags/de.gif"
+                             class="currentItem"
+                             title="German" />
+                    
+                    
+                </a>&nbsp; 
+        </li>
+        
+        
+        <li class="">
+                <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien?set_language=en"
+                   title="English">
+                    
+                        <img width="14" height="11" alt=""
+                             src="http://webclu.bio.wzw.tum.de/binfo/++resource++country-flags/gb.gif"
+                             class="" title="English" />
+                    
+                    
+                </a>&nbsp; 
+        </li>
+        
+    </ul>
+
+
+<div id="portal-breadcrumbs">
+
+    <span id="breadcrumbs-you-are-here">Sie sind hier:</span>
+    <a href="http://webclu.bio.wzw.tum.de/binfo">Startseite</a>
+    <span class="breadcrumbSeparator">
+        &rarr;
+        
+    </span>
+    <span dir="ltr">
+        
+            <a href="http://webclu.bio.wzw.tum.de/binfo/edu">Lehre</a>
+            <span class="breadcrumbSeparator">
+                &rarr;
+                
+            </span>
+            
+         
+    </span>
+    <span dir="ltr">
+        
+            <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011">Wintersemester 2010/2011</a>
+            <span class="breadcrumbSeparator">
+                &rarr;
+                
+            </span>
+            
+         
+    </span>
+    <span dir="ltr">
+        
+            <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf">Einführung in die Bioinformatik I</a>
+            <span class="breadcrumbSeparator">
+                &rarr;
+                
+            </span>
+            
+         
+    </span>
+    <span dir="ltr">
+        
+            
+            
+            <span>Folien</span>
+         
+    </span>
+
+</div>
+
+      </div>
+
+      <div class="visualClear" id="clear-space-before-wrapper-table"><!-- --></div>
+
+      <table id="portal-columns">
+        <tbody>
+          <tr>
+            
+            <td id="portal-column-one">
+              <div class="visualPadding">
+                
+                  
+<div id="portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f62696e666f0a6e617669676174696f6e"
+     class="portletWrapper kssattr-portlethash-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f62696e666f0a6e617669676174696f6e">
+<dl class="portlet portletNavigationTree">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        
+       <a href="http://webclu.bio.wzw.tum.de/binfo/sitemap"
+          class="tile">Navigation</a>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem lastItem">
+        <ul class="navTree navTreeLevel0">
+            
+            
+
+
+
+<li class="navTreeItem visualNoMarker navTreeItemInPath navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu"
+           class="state-published navTreeItemInPath navTreeFolderish"
+           title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/folder_icon.gif" alt="Folder" />
+            <span>Lehre</span>
+        </a>
+        
+    </div>
+
+    <ul class="navTree navTreeLevel1">  
+        
+
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/projects"
+           class="state-published navTreeFolderish"
+           title="An unserem Lehrstuhl gibt es ständig neue Projekte für Abschlussarbeiten. Nachfolgende Liste gibt eine Auswahl an formulierten Themenstellungen für Bachelor-, Master- und Diplomarbeiten. Bei Interesse wenden Sie sich bitte an den jeweils beim Thema angegebenen Ansprechpartner.
+Daneben können Sie jederzeit in den Gruppen von Prof. Mewes und Prof. Frishman nach weiteren Themen anfragen, die sich aus den aktuell bearbeiteten Projekten ableiten lassen. ">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/folder_icon.gif" alt="Folder" />
+            <span>Themen für Abschlussarbeiten (Bachelor, Master, Diplom)</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/ss2010"
+           class="state-published navTreeFolderish" title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/folder_icon.gif" alt="Folder" />
+            <span>Sommersemester 2010</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/archiv"
+           class="state-private navTreeFolderish"
+           title="Material aus vergangenen Semestern">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/folder_icon.gif" alt="Folder" />
+            <span>Archiv</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeItemInPath navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011"
+           class="state-published navTreeItemInPath navTreeFolderish"
+           title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/folder_icon.gif" alt="Folder" />
+            <span>Wintersemester 2010/2011</span>
+        </a>
+        
+    </div>
+
+    <ul class="navTree navTreeLevel2">  
+        
+
+
+
+<li class="navTreeItem visualNoMarker navTreeItemInPath navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf"
+           class="state-published navTreeItemInPath navTreeFolderish"
+           title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/eclecture.png" alt="Lecture" />
+            <span>Einführung in die Bioinformatik I</span>
+        </a>
+        
+    </div>
+
+    <ul class="navTree navTreeLevel3">  
+        
+
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/news"
+           class="state-published navTreeFolderish" title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/folder_icon.gif" alt="Folder" />
+            <span>News</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeCurrentNode navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien"
+           class="state-visible navTreeCurrentItem navTreeCurrentNode navTreeFolderish"
+           title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/folder_icon.gif" alt="Folder" />
+            <span>Folien</span>
+        </a>
+        
+    </div>
+
+    <ul class="navTree navTreeLevel4">  
+        
+
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/1.-vorlesung/view"
+           class="state-published"
+           title="Einführung in die Lebenswissenschaften; Studiengang Bioinformatik">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/pdf_icon.gif" alt="File" />
+            <span>1. Vorlesung</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/2.-vorlesung/view"
+           class="state-published"
+           title="Biologie ist komplex; Ursache von Erkrankungen; Biomoleküle">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/pdf_icon.gif" alt="File" />
+            <span>2. Vorlesung</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/3.-vorlesung/view"
+           class="state-published" title="Biomoleküle">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/pdf_icon.gif" alt="File" />
+            <span>3. Vorlesung</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/4.-vorlesung/view"
+           class="state-published"
+           title="Funktionen der Biomoleküle, Chemische Bindungen">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/pdf_icon.gif" alt="File" />
+            <span>4. Vorlesung</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/5-vorlesung-makromolekuele-sequenzen/view"
+           class="state-published" title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/pdf_icon.gif" alt="File" />
+            <span>5 Vorlesung Makromoleküle / Sequenzen</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+
+
+    </ul>
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/material"
+           class="state-visible navTreeFolderish" title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/folder_icon.gif" alt="Folder" />
+            <span>Material</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/uebungen"
+           class="state-visible navTreeFolderish" title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/folder_icon.gif" alt="Folder" />
+            <span>Übungen</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+
+
+    </ul>
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/praktikum"
+           class="state-published navTreeFolderish" title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/eclecture.png" alt="Lecture" />
+            <span>Praktikum "Genomorientierte Bioinformatik"</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/hauptseminar"
+           class="state-published navTreeFolderish" title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/eclecture.png" alt="Lecture" />
+            <span>Hauptseminar Bioinformatik</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/sysbio_diseases"
+           class="state-published navTreeFolderish" title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/eclecture.png" alt="Lecture" />
+            <span>Systems Biology of Diseases and Drug Treatment</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/advanced_seminar"
+           class="state-published navTreeFolderish"
+           title="Die Biologie des Alterns gehört zu den großen Herausforderungen einer präventiven, individualisierten Medizin. ">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/eclecture.png" alt="Lecture" />
+            <span>Fortgeschrittenenseminar "Ageing"</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/structural_bioinformatics"
+           class="state-published navTreeFolderish" title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/eclecture.png" alt="Lecture" />
+            <span>Strukturbioinformatik</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/metabolomics"
+           class="state-published navTreeFolderish"
+           title="Diese Vorlesung wir in diesem Semester nicht angeboten">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/eclecture.png" alt="Lecture" />
+            <span>Metabolomics</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_nf_ws2010"
+           class="state-published navTreeFolderish" title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/eclecture.png" alt="Lecture" />
+            <span>Bioinformatik für Biowissenschaften I</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+
+
+    </ul>
+    
+</li>
+
+
+
+
+    </ul>
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/forschung"
+           class="state-published navTreeFolderish" title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/folder_icon.gif" alt="Folder" />
+            <span>Forschung</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/services"
+           class="state-published" title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/document_icon.gif" alt="Page" />
+            <span>Services</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/personen"
+           class="state-published" title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/document_icon.gif" alt="Page" />
+            <span>Personen</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/kontakt"
+           class="state-published" title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/document_icon.gif" alt="Page" />
+            <span>Kontakt</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/impressum"
+           class="state-published" title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/document_icon.gif" alt="Page" />
+            <span>Impressum</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/bioinformatics-jobs"
+           class="state-published navTreeFolderish"
+           title="Open positions at the TUM, Helmholtz-Center Munich or related institutions">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/folder_icon.gif" alt="Folder" />
+            <span>Bioinformatics Jobs</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://webclu.bio.wzw.tum.de/binfo/intranet"
+           class="state-visible navTreeFolderish" title="">
+            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/folder_icon.gif" alt="Folder" />
+            <span>Intranet</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+
+
+        </ul>
+        <span class="portletBottomLeft"></span>
+        <span class="portletBottomRight"></span>
+    </dd>
+</dl>
+
+</div>
+
+<div id="portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f62696e666f0a696e7472616e65745f706f72746c6574"
+     class="portletWrapper kssattr-portlethash-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f62696e666f0a696e7472616e65745f706f72746c6574">
+
+  
+  
+    <div>
+         
+    </div>
+  
+
+  
+  
+</div>
+
+
+<div class="managePortletsLink">
+  <a title="Zeige Portletkonfiguration"
+     href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/@@manage-portlets">Portleteinstellungen</a>
+</div>
+
+                
+                &nbsp;
+              </div>
+            </td>
+            
+
+            
+            <td id="portal-column-content">
+
+              
+                <div class="documentEditable">
+
+                  
+
+    
+
+        <h5 class="hiddenStructure">Ansichten</h5>
+
+        <ul class="contentViews" id="content-views">
+
+            
+              <li id="contentview-folderContents"
+                  class="plain">
+                <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/folder_contents">Inhalte</a>
+              </li>
+            
+            
+              <li id="contentview-view" class="selected">
+                <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/">Anzeigen</a>
+              </li>
+            
+            
+              <li id="contentview-edit" class="plain">
+                <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/edit">Bearbeiten</a>
+              </li>
+            
+            
+              <li id="contentview-massloader_import"
+                  class="plain">
+                <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/@@massloader_import">Import</a>
+              </li>
+            
+            
+              <li id="contentview-contentrules"
+                  class="plain">
+                <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/@@manage-content-rules">Regeln</a>
+              </li>
+            
+            
+              <li id="contentview-local_roles" class="plain">
+                <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/@@sharing">Zugriff</a>
+              </li>
+            
+
+        </ul>
+        
+    
+
+
+<div class="contentActions">
+
+    
+
+        
+
+        
+
+        <ul id="contentActionMenus">
+
+    <li>
+
+        <dl class="actionMenu"
+            id="plone-contentmenu-workflow">
+          <dt class="actionMenuHeader label-state-visible">
+            <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/content_status_history"
+               title="Ändere den Status dieses Artikels.">
+               
+                  
+                  <span>Status:</span>
+                  <span class="state-visible">Sichtbar</span>
+                  <span class="arrowDownAlternative">&#9660;</span>
+               
+            </a>
+          </dt>
+          <dd class="actionMenuContent">
+            <ul>
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/content_status_modify?workflow_action=publish"
+                       class=""
+                       id="workflow-transition-publish"
+                       title="">
+                        
+                        
+                        <span class="subMenuTitle">Veröffentlichen</span>
+                    </a>
+                    
+                  </li>
+                
+                
+                  <li class="actionSeparator">
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/content_status_history"
+                       class="kssIgnore" id="advanced"
+                       title="">
+                        
+                        
+                        <span class="subMenuTitle">Erweitert…</span>
+                    </a>
+                    
+                  </li>
+                
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/placeful_workflow_configuration"
+                       class="kssIgnore" id="policy"
+                       title="">
+                        
+                        
+                        <span class="subMenuTitle">Richtlinie</span>
+                    </a>
+                    
+                  </li>
+                
+            </ul>
+          </dd>
+        </dl>
+
+    </li>
+    <li>
+
+        <dl class="actionMenu"
+            id="plone-contentmenu-factories">
+          <dt class="actionMenuHeader label-">
+            <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/folder_factories"
+               title="Artikel in diesem Artikel hinzufügen.">
+               
+                  
+                  <span>Hinzufügen</span>
+                  
+                  <span class="arrowDownAlternative">&#9660;</span>
+               
+            </a>
+          </dt>
+          <dd class="actionMenuContent">
+            <ul>
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/createObject?type_name=ECAssignmentBox"
+                       class="contenttype-ecassignmentbox"
+                       id="ecassignmentbox" title="">
+                        
+                        <img width="16" height="16" alt=""
+                             src="http://webclu.bio.wzw.tum.de/binfo/ecab.png"
+                             title="" />
+                        <span class="subMenuTitle">Aufgabe</span>
+                    </a>
+                    
+                  </li>
+                
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/createObject?type_name=Image"
+                       class="contenttype-image" id="image"
+                       title="Ein Bild, das in Texten und Alben angezeigt werden kann.">
+                        
+                        <img width="16" height="16" alt=""
+                             src="http://webclu.bio.wzw.tum.de/binfo/image_icon.gif"
+                             title="Ein Bild, das in Texten und Alben angezeigt werden kann." />
+                        <span class="subMenuTitle">Bild</span>
+                    </a>
+                    
+                  </li>
+                
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/createObject?type_name=File"
+                       class="contenttype-file" id="file"
+                       title="Eine Datei zum Herunterladen.">
+                        
+                        <img width="16" height="16" alt=""
+                             src="http://webclu.bio.wzw.tum.de/binfo/file_icon.gif"
+                             title="Eine Datei zum Herunterladen." />
+                        <span class="subMenuTitle">Datei</span>
+                    </a>
+                    
+                  </li>
+                
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/createObject?type_name=ECFolder"
+                       class="contenttype-ecfolder"
+                       id="ecfolder" title="">
+                        
+                        <img width="16" height="16" alt=""
+                             src="http://webclu.bio.wzw.tum.de/binfo/ecfolder.png"
+                             title="" />
+                        <span class="subMenuTitle">EC-Ordner</span>
+                    </a>
+                    
+                  </li>
+                
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/createObject?type_name=Topic"
+                       class="contenttype-topic" id="topic"
+                       title="Eine Auswahl von Artikeln nach einstellbaren Suchkriterien.">
+                        
+                        <img width="16" height="16" alt=""
+                             src="http://webclu.bio.wzw.tum.de/binfo/topic_icon.gif"
+                             title="Eine Auswahl von Artikeln nach einstellbaren Suchkriterien." />
+                        <span class="subMenuTitle">Kollektion</span>
+                    </a>
+                    
+                  </li>
+                
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/createObject?type_name=ECLecture"
+                       class="contenttype-eclecture"
+                       id="eclecture"
+                       title="A folder which contains lecture information.">
+                        
+                        <img width="16" height="16" alt=""
+                             src="http://webclu.bio.wzw.tum.de/binfo/eclecture.png"
+                             title="A folder which contains lecture information." />
+                        <span class="subMenuTitle">Lehrveranstaltung</span>
+                    </a>
+                    
+                  </li>
+                
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/createObject?type_name=Link"
+                       class="contenttype-link" id="link"
+                       title="Ein Verweis auf einen anderen Artikel oder eine Webseite.">
+                        
+                        <img width="16" height="16" alt=""
+                             src="http://webclu.bio.wzw.tum.de/binfo/link_icon.gif"
+                             title="Ein Verweis auf einen anderen Artikel oder eine Webseite." />
+                        <span class="subMenuTitle">Link</span>
+                    </a>
+                    
+                  </li>
+                
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/createObject?type_name=News+Item"
+                       class="contenttype-news-item"
+                       id="news-item"
+                       title="Eine aktuelle Meldung, die neben dem Nachrichtentext ein Titelbild enthalten kann.">
+                        
+                        <img width="16" height="16" alt=""
+                             src="http://webclu.bio.wzw.tum.de/binfo/newsitem_icon.gif"
+                             title="Eine aktuelle Meldung, die neben dem Nachrichtentext ein Titelbild enthalten kann." />
+                        <span class="subMenuTitle">Nachricht</span>
+                    </a>
+                    
+                  </li>
+                
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/createObject?type_name=Folder"
+                       class="contenttype-folder"
+                       id="folder"
+                       title="Ein Ordner, der andere Artikel enthalten kann.">
+                        
+                        <img width="16" height="16" alt=""
+                             src="http://webclu.bio.wzw.tum.de/binfo/folder_icon.gif"
+                             title="Ein Ordner, der andere Artikel enthalten kann." />
+                        <span class="subMenuTitle">Ordner</span>
+                    </a>
+                    
+                  </li>
+                
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/createObject?type_name=Document"
+                       class="contenttype-document"
+                       id="document"
+                       title="Eine Seite, die formatierten Text und Bilder enthalten kann.">
+                        
+                        <img width="16" height="16" alt=""
+                             src="http://webclu.bio.wzw.tum.de/binfo/document_icon.gif"
+                             title="Eine Seite, die formatierten Text und Bilder enthalten kann." />
+                        <span class="subMenuTitle">Seite</span>
+                    </a>
+                    
+                  </li>
+                
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/createObject?type_name=Survey"
+                       class="contenttype-survey"
+                       id="survey"
+                       title="You can add questions to surveys.">
+                        
+                        <img width="16" height="16" alt=""
+                             src="http://webclu.bio.wzw.tum.de/binfo/icon_plonesurvey_small.gif"
+                             title="You can add questions to surveys." />
+                        <span class="subMenuTitle">Survey</span>
+                    </a>
+                    
+                  </li>
+                
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/createObject?type_name=Event"
+                       class="contenttype-event" id="event"
+                       title="Ankündigung eines Termins, der im Kalender erscheint.">
+                        
+                        <img width="16" height="16" alt=""
+                             src="http://webclu.bio.wzw.tum.de/binfo/event_icon.gif"
+                             title="Ankündigung eines Termins, der im Kalender erscheint." />
+                        <span class="subMenuTitle">Termin</span>
+                    </a>
+                    
+                  </li>
+                
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/folder_constraintypes_form"
+                       class="" id="settings"
+                       title="Konfiguration der hinzufügbaren Artikeltypen">
+                        
+                        
+                        <span class="subMenuTitle">Einschränkungen…</span>
+                    </a>
+                    
+                  </li>
+                
+            </ul>
+          </dd>
+        </dl>
+
+    </li>
+    <li>
+
+        <dl class="actionMenu"
+            id="plone-contentmenu-display">
+          <dt class="actionMenuHeader label-">
+            <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/select_default_view"
+               title="Darstellung dieses Ordners wählen oder einen Artikel als Standardseite setzen.">
+               
+                  
+                  <span>Darstellung</span>
+                  
+                  <span class="arrowDownAlternative">&#9660;</span>
+               
+            </a>
+          </dt>
+          <dd class="actionMenuContent">
+            <ul>
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/selectViewTemplate?templateId=folder_summary_view"
+                       class="" id="folder_summary_view"
+                       title="">
+                        
+                        
+                        <span class="subMenuTitle">Kurzfassung</span>
+                    </a>
+                    
+                  </li>
+                
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/selectViewTemplate?templateId=folder_tabular_view"
+                       class="" id="folder_tabular_view"
+                       title="">
+                        
+                        
+                        <span class="subMenuTitle">Tabelle</span>
+                    </a>
+                    
+                  </li>
+                
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/selectViewTemplate?templateId=atct_album_view"
+                       class="" id="atct_album_view"
+                       title="">
+                        
+                        
+                        <span class="subMenuTitle">Album</span>
+                    </a>
+                    
+                  </li>
+                
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/selectViewTemplate?templateId=folder_listing"
+                       class="" id="folder_listing" title="">
+                        <span>&bull;</span>
+                        
+                        <span class="subMenuTitle">Liste</span>
+                    </a>
+                    
+                  </li>
+                
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/selectViewTemplate?templateId=folder_lectures_view"
+                       class="" id="folder_lectures_view"
+                       title="">
+                        
+                        
+                        <span class="subMenuTitle">Lehrveranstaltungen</span>
+                    </a>
+                    
+                  </li>
+                
+                
+                  <li class="actionSeparator">
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/select_default_page"
+                       class="" id="contextSetDefaultPage"
+                       title="Wählen Sie einen Artikel, der als Standardseite für diesen Ordner gelten soll…">
+                        
+                        
+                        <span class="subMenuTitle">Artikel aus dem Ordner…</span>
+                    </a>
+                    
+                  </li>
+                
+            </ul>
+          </dd>
+        </dl>
+
+    </li>
+    <li>
+
+        <dl class="actionMenu"
+            id="plone-contentmenu-actions">
+          <dt class="actionMenuHeader label-">
+            <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/folder_contents"
+               title="Aktionen für den aktuellen Artikel">
+               
+                  
+                  <span>Aktionen</span>
+                  
+                  <span class="arrowDownAlternative">&#9660;</span>
+               
+            </a>
+          </dt>
+          <dd class="actionMenuContent">
+            <ul>
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/object_cut"
+                       class="actionicon-object_buttons-cut"
+                       id="cut" title="">
+                        
+                        <img width="16" height="16" alt=""
+                             src="http://webclu.bio.wzw.tum.de/binfo/cut_icon.gif"
+                             title="" />
+                        <span class="subMenuTitle">Ausschneiden</span>
+                    </a>
+                    
+                  </li>
+                
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/object_copy"
+                       class="actionicon-object_buttons-copy"
+                       id="copy" title="">
+                        
+                        <img width="16" height="16" alt=""
+                             src="http://webclu.bio.wzw.tum.de/binfo/copy_icon.gif"
+                             title="" />
+                        <span class="subMenuTitle">Kopieren</span>
+                    </a>
+                    
+                  </li>
+                
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/delete_confirmation"
+                       class="actionicon-object_buttons-delete"
+                       id="delete" title="">
+                        
+                        <img width="16" height="16" alt=""
+                             src="http://webclu.bio.wzw.tum.de/binfo/delete_icon.gif"
+                             title="" />
+                        <span class="subMenuTitle">Löschen</span>
+                    </a>
+                    
+                  </li>
+                
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/object_rename"
+                       class="actionicon-object_buttons-rename"
+                       id="rename" title="">
+                        
+                        
+                        <span class="subMenuTitle">Umbenennen</span>
+                    </a>
+                    
+                  </li>
+                
+            </ul>
+          </dd>
+        </dl>
+
+    </li>
+    <li>
+
+        <dl class="actionMenu"
+            id="plone-contentmenu-translate">
+          <dt class="actionMenuHeader label-">
+            <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/manage_translations_form"
+               title="Manage translations for your content.">
+               
+                  
+                  <span>Translate into...</span>
+                  
+                  <span class="arrowDownAlternative">&#9660;</span>
+               
+            </a>
+          </dt>
+          <dd class="actionMenuContent">
+            <ul>
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/@@translate?newlanguage=en"
+                       class="" id="translate_into_en"
+                       title="Translate into English">
+                        
+                        <img width="16" height="16" alt=""
+                             src="/++resource++country-flags/gb.gif"
+                             title="Translate into English" />
+                        <span class="subMenuTitle">Englisch</span>
+                    </a>
+                    
+                  </li>
+                
+                
+                  <li class="actionSeparator">
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/manage_translations_form"
+                       class="" id="_manage_translations"
+                       title="">
+                        
+                        
+                        <span class="subMenuTitle">Übersetzungen verwalten...</span>
+                    </a>
+                    
+                  </li>
+                
+                
+                  <li>
+                    <a href="http://webclu.bio.wzw.tum.de/binfo/@@language-controlpanel"
+                       class="" id="_language_settings"
+                       title="">
+                        
+                        
+                        <span class="subMenuTitle">Spracheinstellungen...</span>
+                    </a>
+                    
+                  </li>
+                
+            </ul>
+          </dd>
+        </dl>
+
+    </li>
+
+</ul>
+
+
+    
+
+</div>
+
+
+                  <div id="region-content" class="documentContent">
+
+                    <span id="contentTopLeft"></span>
+                    <span id="contentTopRight"></span>
+                    
+                    <a name="documentContent"></a>
+
+                    
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+
+                    
+                    <div id="viewlet-above-content"><div id="plone-lock-status">
+  
+</div>
+</div>
+
+                    
+                    
+                    <div id="content">
+                      
+                      <div>
+    
+
+        
+
+        
+        
+        <h1 id="parent-fieldname-title"
+            class="documentFirstHeading kssattr-atfieldname-title kssattr-templateId-kss_generic_macros kssattr-macro-title-field-view">
+            Folien
+        </h1>
+        
+        
+        
+
+        <div class="documentByLine" id="plone-document-byline">
+  
+
+  
+    <span class="documentAuthor">erstellt von <a href="http://webclu.bio.wzw.tum.de/binfo/author/pagel">Philipp Pagel</a></span>
+  
+
+  <span class="documentModified">
+    &mdash;
+    <span>zuletzt verändert:</span>
+    Jul 13, 2010 12:06 PM
+  </span>
+
+  
+
+  
+
+  
+
+</div>
+
+
+
+
+        
+        
+        
+        
+        
+        
+
+        
+
+        
+
+        
+        
+        
+
+            <dl>
+                
+                
+
+                    <dt class="">
+
+                        <span
+    class="contenttype-file summary">
+                            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/pdf_icon.gif" alt="File" />
+                            <a
+    href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/1.-vorlesung/view"
+    class="state-published url">1. Vorlesung</a>
+                        </span>
+
+                        
+
+                        <span class="documentByLine">
+
+                            
+
+                            
+                                &mdash;
+
+                                
+                                  <span>erstellt von <a href="http://webclu.bio.wzw.tum.de/binfo/author/mewes">Werner Mewes</a></span>
+
+                                
+
+                                
+                                    &mdash;
+                                    zuletzt verändert:
+                                    21.10.2010 22:22
+                                
+
+                                
+                                    
+                                
+                            
+                        </span>
+
+                    </dt>
+
+                    <dd>
+                         
+                        <span class="description">Einführung in die Lebenswissenschaften; Studiengang Bioinformatik</span> 
+                    </dd>
+                
+                
+                
+                
+
+                    <dt class="">
+
+                        <span
+    class="contenttype-file summary">
+                            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/pdf_icon.gif" alt="File" />
+                            <a
+    href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/2.-vorlesung/view"
+    class="state-published url">2. Vorlesung</a>
+                        </span>
+
+                        
+
+                        <span class="documentByLine">
+
+                            
+
+                            
+                                &mdash;
+
+                                
+                                  <span>erstellt von <a href="http://webclu.bio.wzw.tum.de/binfo/author/mewes">Werner Mewes</a></span>
+
+                                
+
+                                
+                                    &mdash;
+                                    zuletzt verändert:
+                                    28.10.2010 18:42
+                                
+
+                                
+                                    
+                                
+                            
+                        </span>
+
+                    </dt>
+
+                    <dd>
+                         
+                        <span class="description">Biologie ist komplex; Ursache von Erkrankungen; Biomoleküle</span> 
+                    </dd>
+                
+                
+                
+                
+
+                    <dt class="">
+
+                        <span
+    class="contenttype-file summary">
+                            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/pdf_icon.gif" alt="File" />
+                            <a
+    href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/3.-vorlesung/view"
+    class="state-published url">3. Vorlesung</a>
+                        </span>
+
+                        
+
+                        <span class="documentByLine">
+
+                            
+
+                            
+                                &mdash;
+
+                                
+                                  <span>erstellt von <a href="http://webclu.bio.wzw.tum.de/binfo/author/pagel">Philipp Pagel</a></span>
+
+                                
+
+                                
+                                    &mdash;
+                                    zuletzt verändert:
+                                    04.11.2010 20:22
+                                
+
+                                
+                                    
+                                
+                            
+                        </span>
+
+                    </dt>
+
+                    <dd>
+                         
+                        <span class="description">Biomoleküle</span> 
+                    </dd>
+                
+                
+                
+                
+
+                    <dt class="">
+
+                        <span
+    class="contenttype-file summary">
+                            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/pdf_icon.gif" alt="File" />
+                            <a
+    href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/4.-vorlesung/view"
+    class="state-published url">4. Vorlesung</a>
+                        </span>
+
+                        
+
+                        <span class="documentByLine">
+
+                            
+
+                            
+                                &mdash;
+
+                                
+                                  <span>erstellt von <a href="http://webclu.bio.wzw.tum.de/binfo/author/mewes">Werner Mewes</a></span>
+
+                                
+
+                                
+                                    &mdash;
+                                    zuletzt verändert:
+                                    11.11.2010 20:05
+                                
+
+                                
+                                    
+                                
+                            
+                        </span>
+
+                    </dt>
+
+                    <dd>
+                         
+                        <span class="description">Funktionen der Biomoleküle, Chemische Bindungen</span> 
+                    </dd>
+                
+                
+                
+                
+
+                    <dt class="">
+
+                        <span
+    class="contenttype-file summary">
+                            <img width="16" height="16" src="http://webclu.bio.wzw.tum.de/binfo/pdf_icon.gif" alt="File" />
+                            <a
+    href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/5-vorlesung-makromolekuele-sequenzen/view"
+    class="state-published url">5 Vorlesung Makromoleküle / Sequenzen</a>
+                        </span>
+
+                        
+
+                        <span class="documentByLine">
+
+                            
+
+                            
+                                &mdash;
+
+                                
+                                  <span>erstellt von <a href="http://webclu.bio.wzw.tum.de/binfo/author/mewes">Werner Mewes</a></span>
+
+                                
+
+                                
+                                    &mdash;
+                                    zuletzt verändert:
+                                    19.11.2010 15:16
+                                
+
+                                
+                                    
+                                
+                            
+                        </span>
+
+                    </dt>
+
+                    <dd>
+                         
+                            &nbsp; 
+                         
+                        <span class="description"></span> 
+                    </dd>
+                
+                
+            </dl>
+            
+            <!-- Navigation -->
+            
+            
+        
+        
+            
+        
+
+        
+        
+
+        <div class="visualClear"><!-- --></div>
+<div class="documentActions">
+    
+
+    <h5 class="hiddenStructure">Artikelaktionen</h5>
+
+    <ul>
+    
+        <li id="document-action-print">
+            <a href="javascript:this.print();" title="">Drucken</a>
+        </li>
+    
+    
+        <li id="document-action-extedit">
+            <a href="http://webclu.bio.wzw.tum.de/binfo/edu/wintersemester-2010-2011/binfo1_hf/folien/external_edit"
+               title="">Mit externer Anwendung bearbeiten</a>
+        </li>
+    
+
+    </ul>
+    
+
+    
+
+</div>
+
+<div class="reviewHistory" id="review-history">
+    
+      <dl id="history" class="collapsible inline collapsedOnLoad">
+        <dt class="collapsibleHeader">Historie</dt>
+        <dd class="collapsibleContent">
+
+        <table class="listing nosort"
+               summary="Revisionshistorie">
+
+          <tr>
+            <th>Aktion</th>
+            <th>Ausgeführt von</th>
+            <th>Datum und Uhrzeit</th>
+            <th>Kommentar</th>
+          </tr>
+
+          
+            <tr class="odd">
+              <td class="state-visible">Zurückziehen</td>
+
+              <td>
+                <a href="http://webclu.bio.wzw.tum.de/binfo/author/pagel">Philipp Pagel</a>
+                
+              </td>
+
+              <td>
+                13.07.2010 13:06
+                
+              </td>
+
+              <td>
+                
+
+                <span>Keine Kommentare</span>
+              </td>
+            </tr>
+          
+        </table>
+
+        </dd>
+      </dl>
+    
+</div>
+
+
+    
+    </div>
+                    </div>
+                    
+
+                    
+                    
+                      
+    
+
+
+
+
+                    
+                    
+
+                    <span id="contentBottomLeft"></span>
+                    <span id="contentBottomRight"></span>
+
+                  </div>
+
+                </div>
+
+              
+            </td>
+            
+
+            
+            
+            
+          </tr>
+        </tbody>
+      </table>
+      
+
+      <div class="visualClear" id="clear-space-before-footer"><!-- --></div>
+      
+      
+
+      
+
+        <div id="portal-footer">
+
+<p>
+    &copy; Technische Universit&auml;t M&uuml;nchen - Lehrstuhl f&uuml;r Genomorientierte Bioinformatik
+</p>
+
+</div>
+
+  <div id="portal-colophon">
+      
+
+      
+
+      <div class="colophonWrapper">
+      <ul>
+        <li>
+          <a href="http://plone.org"
+             title="Diese Website wurde mit Plone, dem Open-Source Content-Management-System erstellt. Hier erhalten Sie weitere Informationen.">Powered by Plone</a>
+        </li>
+        <li>
+          <a href="http://validator.w3.org/check/referer"
+             title="Diese Website enthält valides XHTML.">Gültiges XHTML</a>
+        </li>
+        <li>
+          <a href="http://jigsaw.w3.org/css-validator/check/referer&amp;warning=no&amp;profile=css3&amp;usermedium=all"
+             title="Diese Website wurde mit gültigem CSS erstellt.">Gültiges CSS</a>
+        </li>
+        <li>
+          <a href="http://www.section508.gov"
+             title="Diese Website entspricht den Barrierefreiheitsrichtlinien der US-Regierung nach Abschnitt 508.">Section 508</a>
+        </li>
+        <li>
+          <a href="http://www.w3.org/WAI/WCAG1AA-Conformance"
+             title="Diese Website entspricht den W3C-WAI-Richtlinien zur Barrierefreiheit von Websites. ">WCAG</a>
+        </li>
+      </ul>
+      </div>
+
+    </div>
+
+
+
+      
+
+      <div class="visualClear"><!-- --></div>
+    </div>
+<div id="kss-spinner"><img alt=""
+                           src="http://webclu.bio.wzw.tum.de/binfo/spinner.gif" /></div>
+</body>
+</html>
+

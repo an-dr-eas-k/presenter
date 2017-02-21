@@ -1,0 +1,5 @@
+#!/bin/bash
+
+gcprofile=$(readlink -f $(dirname ${0})/../var/google-chrome-profile)
+echo $gcprofile
+/usr/bin/google-chrome --user-data-dir=${gcprofile} "$@" 2>/dev/null

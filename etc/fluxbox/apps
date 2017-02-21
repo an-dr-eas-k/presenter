@@ -1,0 +1,13 @@
+[app] (name=.*)
+	[Dimensions] {512 384}
+  [Position]	(TOPLEFT)	{0 0}
+  [Layer]	{8}
+[end]
+[app] (name=fbrun)
+  [Position]	(CENTER)	{0 0}
+  [Layer]	{8}
+[end]
+[app] (name=win) (class=Xpdf)
+  [Position]	(CENTER)	{0 0}
+  [Layer]	{8}
+[end]

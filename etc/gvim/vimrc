@@ -1,0 +1,5 @@
+set gfn=Monospace\ 14
+set columns=41
+set lines=14
+set spell
+set spelllang=de,en

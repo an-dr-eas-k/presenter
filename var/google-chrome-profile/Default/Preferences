@@ -1,0 +1,159 @@
+{
+   "content_settings_window": {
+      "last_tab_index": 3
+   },
+   "countryid_at_install": 21843,
+   "default_search_provider": {
+      "enabled": true,
+      "encodings": "",
+      "icon_url": "",
+      "id": "12",
+      "instant_url": "",
+      "keyword": "google.com",
+      "name": "google.com",
+      "prepopulate_id": "0",
+      "search_url": "http://google.com/search?q={searchTerms}",
+      "suggest_url": ""
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/tmp",
+      "directory_upgrade": true,
+      "extensions_to_open": ""
+   },
+   "extensions": {
+      "autoupdate": {
+         "last_check": "12935771273517367",
+         "next_check": "12936981909326181"
+      },
+      "blacklistupdate": {
+         "lastpingday": "12935750486173093"
+      },
+      "chrome_url_overrides": {
+         "bookmarks": [ "chrome-extension://eemcgdkfndhakfknompkggombfjjjeno/main.html" ]
+      }
+   },
+   "google": {
+      "services": {
+         "username": ""
+      }
+   },
+   "homepage": "http://www.google.com/",
+   "homepage_is_newtabpage": true,
+   "intl": {
+      "charset_default": "UTF-8"
+   },
+   "ntp": {
+      "alt_logo_end": 1254996000.0,
+      "alt_logo_resource_server": "https://www.google.com/support/chrome/bin/topic/30248/inproduct",
+      "alt_logo_start": 1254996000.0,
+      "pref_version": 3,
+      "shown_sections": 1,
+      "web_resource_cache_update": "1291296464.424197"
+   },
+   "plugins": {
+      "enabled_internal_pdf2": true,
+      "enabled_internal_pdf3": true,
+      "last_internal_directory": "/opt/google/chrome",
+      "plugins_list": [ {
+         "enabled": true,
+         "name": "Chrome PDF Viewer",
+         "path": "/opt/google/chrome/libpdf.so",
+         "version": ""
+      }, {
+         "enabled": true,
+         "name": "IcedTea NPR Web Browser Plugin (using IcedTea6 1.8.2 (fedora-43.1.8.2.fc13-x86_64))",
+         "path": "/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/amd64/IcedTeaPlugin.so",
+         "version": ""
+      }, {
+         "enabled": true,
+         "name": "iTunes Application Detector",
+         "path": "/usr/lib64/mozilla/plugins/librhythmbox-itms-detection-plugin.so",
+         "version": ""
+      }, {
+         "enabled": true,
+         "name": "VLC Multimedia Plugin (compatible Totem 2.30.2)",
+         "path": "/usr/lib64/mozilla/plugins/libtotem-cone-plugin.so",
+         "version": ""
+      }, {
+         "enabled": true,
+         "name": "Windows Media Player Plug-in 10 (compatible; Totem)",
+         "path": "/usr/lib64/mozilla/plugins/libtotem-gmp-plugin.so",
+         "version": ""
+      }, {
+         "enabled": true,
+         "name": "DivX\u00AE Web Player",
+         "path": "/usr/lib64/mozilla/plugins/libtotem-mully-plugin.so",
+         "version": ""
+      }, {
+         "enabled": true,
+         "name": "QuickTime Plug-in 7.6.6",
+         "path": "/usr/lib64/mozilla/plugins/libtotem-narrowspace-plugin.so",
+         "version": ""
+      }, {
+         "enabled": true,
+         "name": "Shockwave Flash",
+         "path": "/usr/lib64/mozilla/plugins/libflashplayer.so",
+         "version": ""
+      }, {
+         "enabled": true,
+         "name": "Default Plug-in",
+         "path": "default_plugin",
+         "version": "1"
+      }, {
+         "enabled": true,
+         "name": "IcedTea NPR Web Browser Plugin (using IcedTea6 1.8.2 (fedora-43.1.8.2.fc13-x86_64))"
+      }, {
+         "enabled": true,
+         "name": "Default Plug-in"
+      }, {
+         "enabled": true,
+         "name": "Shockwave Flash"
+      }, {
+         "enabled": true,
+         "name": "Chrome PDF Viewer"
+      }, {
+         "enabled": true,
+         "name": "iTunes Application Detector"
+      }, {
+         "enabled": true,
+         "name": "VLC Multimedia Plugin (compatible Totem 2.30.2)"
+      }, {
+         "enabled": true,
+         "name": "Windows Media Player Plug-in 10 (compatible; Totem)"
+      }, {
+         "enabled": true,
+         "name": "DivX\u00AE Web Player"
+      }, {
+         "enabled": true,
+         "name": "QuickTime Plug-in 7.6.6"
+      } ]
+   },
+   "profile": {
+      "content_settings": {
+         "pref_version": 1
+      },
+      "exited_cleanly": true,
+      "per_host_zoom_levels": {
+         "file:///home/andreask/work/home/teaching/ws2010/binfo_hf/uebungen/01/loesungsvorschlag01.html": 2.0
+      }
+   },
+   "session": {
+      "restore_on_startup": 1
+   },
+   "tabs": {
+      "use_vertical_tabs": false
+   },
+   "translate": {
+      "enabled": false
+   },
+   "translate_accepted_count": {
+      "de": 0
+   },
+   "translate_denied_count": {
+      "de": 1
+   },
+   "translate_language_blacklist": [ "de" ]
+}

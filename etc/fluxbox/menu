@@ -1,0 +1,110 @@
+
+[begin] (Fluxbox)
+	[exec] (Terminal default) {gnome-terminal}
+	[exec] (Terminal zoom) {gnome-terminal --zoom=1.8}
+	[exec] (Web Browser) {google-chrome.present}
+	[separator]
+
+	[submenu] (Applications) 
+		[submenu] (Accessories) 
+			[exec] (Archive Manager) {file-roller} 
+			[exec] (Calculator) {gcalctool} 
+			[exec] (Character Map) {gucharmap} 
+			[exec] (Dasher) {dasher} 
+			[exec] (Take Screenshot) {gnome-screenshot} 
+			[exec] (Text Editor) {gedit} 
+			[exec] (Unison File Synchronizer (version 2.27\)) {unison-2.27} 
+			[exec] (Vi IMproved) {gvim} 
+		[end]
+		[submenu] (Graphics) 
+			[exec] (GNU Image Manipulation Program) {gimp-2.6} 
+			[exec] (Ghostview PostScript/PDF Viewer) {gv} 
+			[exec] (Xpdf PDF Viewer) {xpdf} 
+			[exec] (gThumb Image Viewer) {gthumb} 
+		[end]
+		[submenu] (Internet) 
+			[exec] (Claws Mail) {claws-mail} 
+			[exec] (Epiphany Web Browser) {epiphany} 
+			[exec] (Firefox Web Browser) {firefox} 
+			[exec] (Google Earth) {/home/andreask/google-earth/googleearth} 
+			[exec] (IP Telephony, VoIP and Video Conferencing) {ekiga} 
+			[exec] (Internet Messenger) {pidgin} 
+			[exec] (Opera) {opera} 
+			[exec] (Thunderbird Email) {thunderbird} 
+			[exec] (Transmission BitTorrent Client) {transmission} 
+			[exec] (VNC Viewer) {/usr/bin/vncviewer} 
+		[end]
+		[submenu] (Office) 
+			[exec] (Dictionary) {gnome-dictionary} 
+			[exec] (Evolution Mail and Calendar) {evolution} 
+			[exec] (OpenOffice.org Calc) {openoffice.org} 
+			[exec] (OpenOffice.org Draw) {openoffice.org} 
+			[exec] (OpenOffice.org Impress) {openoffice.org} 
+			[exec] (OpenOffice.org Writer) {openoffice.org} 
+		[end]
+		[submenu] (Other) 
+			[exec] (About This Computer) {gnome-system-monitor} 
+		[end]
+		[submenu] (Programming) 
+			[exec] (Chainsaw) {chainsaw} 
+			[exec] (Eclipse) {eclipse} 
+			[exec] (LogFactor5) {logfactor5} 
+			[exec] (OpenJDK Policy Tool) {/usr/bin/policytool} 
+			[exec] (Vi IMproved) {gvim} 
+		[end]
+		[submenu] (Sound & Video) 
+			[exec] (Audio CD Extractor) {sound-juicer} 
+			[exec] (Gnash SWF Viewer) {/usr/libexec/gnash-wrapper} 
+			[exec] (LASH Panel) {/usr/bin/lash_panel} 
+			[exec] (Movie Player) {totem} 
+			[exec] (PulseAudio Device Chooser) {padevchooser} 
+			[exec] (PulseAudio Manager) {paman} 
+			[exec] (PulseAudio Volume Control) {pavucontrol} 
+			[exec] (Rhythmbox Music Player) {rhythmbox} 
+			[exec] (Sound Recorder) {gnome-sound-recorder} 
+			[exec] (VLC media player) {vlc} 
+		[end]
+		[submenu] (System Tools) 
+			[exec] (Configuration Editor) {gconf-editor} 
+			[exec] (Disk Management) {usermount} 
+			[exec] (Disk Usage Analyzer) {baobab} 
+			[exec] (SELinux Policy Generation Tool) {/usr/bin/selinux-polgengui} 
+			[exec] (SELinux Troubleshooter) {/usr/bin/sealert} 
+			[exec] (Software Log Viewer) {gpk-log} 
+			[exec] (System Log) {gnome-system-log} 
+			[exec] (System Monitor) {gnome-system-monitor} 
+			[exec] (Terminal) {gnome-terminal} 
+		[end]
+	[end]
+
+	[submenu] (Fluxbox Menu)
+		[config] (Configure)
+		[submenu] (System Styles) {Choose a style...}
+			[stylesdir] (/usr/share/fluxbox/styles)
+			[stylesdir] (/usr/share/commonbox/styles/)
+		[end]
+		[submenu] (User Styles) {Choose a style...}
+			[stylesdir] (~/.fluxbox/styles)
+		[end]
+		[workspaces]   (Workspace List)
+		[submenu] (Tools)
+			[exec] (Window name) {xprop WM_CLASS|cut -d " -f 2|xmessage -file - -center}
+			[exec] (Screenshot - JPG) {import screenshot.jpg && display -resize 50% screenshot.jpg}
+			[exec] (Screenshot - PNG) {import screenshot.png && display -resize 50% screenshot.png}
+			[exec] (Run) {fbrun }
+			[exec] (Regen Menu) {fluxbox-generate_menu --with-icons}
+		[end]
+		[submenu] (Window)
+			[restart] (kde) {startkde}
+			[restart] (openbox) {openbox}
+			[restart] (gnome) {gnome-session}
+		[end]
+		[exec] (Lock screen) {xscreensaver-command -lock}
+		[commanddialog] (Fluxbox Command)
+		[reconfig] (Reload config)
+		[restart] (Restart)
+		[separator]
+		[exit] (Exit)
+	[end]
+[end]
+
